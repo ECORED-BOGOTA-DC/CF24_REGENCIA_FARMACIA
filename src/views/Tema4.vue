@@ -389,6 +389,414 @@
     
     p.mt-5(data-aos="zoom-in") Los actores que participan en la cadena de transmisión son:
 
+    ImagenInfografica.color-acento-botones.mt-5
+      template(v-slot:imagen)
+        figure
+          img(src='@/assets/curso/tema4/26.svg' data-aos="zoom-in-up")
+      .tarjeta.color-acento-botones.bg-white.p-3(x="5%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Microorganismo (virus, bacteria, hongo, rickettsia, protozoario o parásitos) que invaden el cuerpo de un ser vivo ocasionando daños en sus tejidos (síntomas). Germen capaz de producir una infección o enfermedad infecciosa. 
+        p.mt-3(style="color:inherit;") Propiedades: transmisibilidad, patogenicidad e inmunogenicidad.  
+      .tarjeta.color-acento-botones.bg-white.p-3(x="17%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Camino que toma el agente para salir de la fuente: Aparato respiratorio, Aparato digestivo, Piel, Placenta, Tracto genitourinario, etc.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="29%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Forma en que el agente infeccioso se transmite del reservorio al huésped; se propaga de una fuente o reservorio a una persona. Puede ser transmisión directa e indirecta.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="23.5%" y="50%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;")  Transferencia directa del agente infeccioso a una puerta de entrada para que se pueda llevar a cabo la infección. Transmisión de persona a persona, a través de rociado de gotillas por en las conjuntivas o membranas mucosas de la nariz o boca al estornudar, toser, escupir, hablar o cantar, y por contacto directo como al tocar, besar, al tener relaciones sexuales.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="26%" y="66%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Objetos o materiales contaminados como juguetes, pañuelos, instrumentos quirúrgicos, agua, alimentos, leche, productos biológicos, incluyendo suero y plasma. El agente puede o no haberse multiplicado o desarrollado en el vehículo antes de ser transmitido.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="35.5%" y="66%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Insecto o cualquier portador vivo que transporta un agente infeccioso desde un individuo o sus desechos, hasta un individuo susceptible, su comida o su ambiente inmediato. El agente puede o no desarrollarse, propagarse o multiplicarse dentro del vector.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="45%" y="66%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Diseminación de aerosoles microbianos transportados hacia una puerta de entrada apropiada, generalmente el tracto.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="78%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") El agente necesariamente debe propagarse (multiplicarse), desarrollarse cíclicamente o ambos (ciclo propagación) en el artrópodo vector antes que pueda transmitir la forma infectante al ser humano.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="89%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Es el simple traslado mecánico del agente infeccioso por medio de un insecto terrestre o volador, ya sea por contaminación de sus patas o trompa o por el pase a través de su tracto gastrointestinal, sin multiplicación o desarrollo cíclico del microorganismo.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="58%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Individuo (o animal) infectado, que alberga un agente infeccioso específico de una enfermedad, sin presentar síntomas o signos clínicos, constituye fuente potencial de infección para el ser humano. Para que se origine una infección específica; el individuo debe cumplir con una serie de aspectos estructurales y funcionales.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="55%" y="45%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Es el intervalo de tiempo que transcurre entre la exposición a un agente infeccioso y la aparición del primer signo o síntoma de la enfermedad.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="55%" y="57.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Es el intervalo de tiempo que transcurre desde que se produce la infección hasta que la persona se vuelve infecciosa.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="55%" y="67%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Es el intervalo de tiempo durante el cual el agente infeccioso puede ser transferido directa o indirectamente de una persona infectada a otra persona, de un animal infectado al ser humano o de un ser humano infectado a un animal, inclusive artrópodos. Como regla general la mayoría de las enfermedades no son transmisibles durante la fase inicial del periodo de incubación ni después del completo restablecimiento del enfermo.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Camino por el cual un agente infeccioso sale de su huésped o puerta de salida. 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="49%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Las enfermedades que utilizan esta puerta de salida son las de mayor difusión y las más difíciles de controlar (tuberculosis, influenza, sarampión, etc.) 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="62%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Propias de la sífilis, SIDA, gonorrea otras enfermedades de transmisión sexual, leptospirosis. 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="74%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Propias de la tifoidea, hepatitis A y E, cólera, amebiasis. 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74.2%" y="86.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") A través de contacto directo con lesiones superficiales, como en la varicela, herpes zoster y sífilis. Por picaduras, mordeduras, perforación por aguja u otro mecanismo que conlleve contacto con sangre infectada, como en la sífilis, enfermedad de Chagas, malaria, leishmaniasis, fiebre amarilla, hepatitis B, etc. 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="74.2%" y="99%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") En general la placenta es una barrera efectiva de protección del feto contra infecciones de la madre; sin embargo, no es totalmente efectiva para algunos agentes infecciosos como los de la sífilis, rubéola, toxoplasmosis, SIDA y enfermedad de Chagas.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="90.5%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Organismo (animal, vegetal o humano) donde vive y se multiplica un agente infeccioso. 
+      .tarjeta.color-acento-botones.bg-white.p-3(x="86%" y="49%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") El hábitat normal en que vive se multiplica y/o crece un agente infeccioso.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="96%" y="49%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;")  Constituye una fuente, pero no un reservorio porque en él no puede multiplicarse el agente.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="85%" y="55.8%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Es cualquier ser humano, animal, artrópodo, planta, suelo o materia inanimada, donde normalmente vive y se multiplica un agente infeccioso y del cual depende para su supervivencia, reproduciéndose de manera que pueda ser transmitido a un huésped susceptible.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="94%" y="64.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;")  El hecho de que una enfermedad o grupo de enfermedades tenga al ser humano como reservorio es de gran importancia práctica, ya que las medidas de control que se adoptan pueden circunscribirse al mismo ser humano. Por ejemplo, si una enfermedad se puede tratar con un antibiótico adecuado, la acción directa se ejerce sobre el sujeto como paciente y como reservorio. 
+        p.mt-3(style="color:inherit;") El reservorio principal de enfermedades como las de transmisión sexual, lepra, tos ferina, sarampión y fiebre tifoidea es el ser humano.
+      .tarjeta.color-acento-botones.bg-white.p-3(x="97%" y="73.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+        p.mb-0(style="color:inherit;") Los animales pueden ser infectados y a la vez servir como reservorio para varias enfermedades del ser humano. Son ejemplos de ello la brucelosis, la leptospirosis, la peste, la psitacosis, la rabia y el tétanos.
+    
+    p.mt-5(data-aos="zoom-in") Y los métodos de transmisión son:
+
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5.d-block Figura 1
+      span Métodos de transmisión de microbios
+    
+    .col-xl-7.m-auto.mt-5
+      ImagenInfografica.infografia3.color-secundario
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema4/27.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="5%" numero="1" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Sangre, fluidos corporales, secreciones y excreciones.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="84%" y="15%" numero="2" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Animales.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="84%" y="35%" numero="3" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Insectos.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="84%" y="57%" numero="4" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Vendajes.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="84%" y="77%" numero="5" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Contacto directo.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="92%" numero="6" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Artículos de cuidado personal.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="24%" y="92%" numero="7" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Utensilios para beber y comer.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="77%" numero="8" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Agua.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="55%" numero="9" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Alimentos.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="30%" numero="10" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Aire.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="13%" numero="11" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;")  Toser, estornudar, reírse y cantar.
+    
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_4_4 4.4  Bioseguridad
+    
+    p(data-aos="zoom-in") Es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se realizan como medidas preventivas, con el fin de mantener el control de factores de riesgo laborales originarios de agentes biológicos, físicos o químicos, al realizar procedimientos que pueden afectar la salud y la seguridad de los trabajadores de la salud, pacientes, cuidadores, visitantes y del medio ambiente. 
+    p.mt-4(data-aos="zoom-in") Se debe evitar el contacto y/o exposición de la piel (intacta o lesionada) o mucosas, con los fluidos corporales, teniendo como premisa que todos los pacientes son considerados potencialmente infecciosos, sin importar el diagnóstico o la afinidad con el individuo. Por lo anterior, se debe fomentar el uso correcto de los Elementos de protección personal (E.P.P), el lavado de manos antes y después del contacto con áreas, equipos, pacientes, talento humano en salud, cuidadores o familiares, higienización o desinfección de manos, los cinco momentos.  
+    p.mt-4(data-aos="zoom-in") Los fluidos del cuerpo son:
+
+    ul.fa-ul.mt-4.mb-0
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Sangre.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Semen.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Secreción vaginal. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Leche materna.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido cefalorraquídeo. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido sinovial. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido pleural. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido amniótico. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido peritoneal. 
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Líquido pericárdico. 
+      li(data-aos="fade-right")
+        i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
+        | Cualquier otro líquido contaminado con sangre.
+
+    p.mt-5(data-aos="zoom-in") Las heces. orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes. excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="zoom-in") Es así como los Elementos de protección Personal que debe usar un regente de farmacia son:
+
+    .tarjeta.tarjeta--azul.p-4.pt-0.p-md-5.mt-4(style="padding-top:0px !important;")
+      SlyderA(tipo="b")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Higiene de manos
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/28.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/29.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Gorro quirúrgico
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/30.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Respirador N95
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/32.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Mascarilla quirúrgica
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/33.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/29.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Monogafas
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/34.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Careta
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/35.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Vestido quirúrgico
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/36.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Bata antifluido
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/37.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Guantes quirúrgicos
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/38.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+        .row
+          .col-12.mb-5
+            .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
+              h3.mb-0 Polainas
+          .col-lg-6.mb-4.mb-lg-0
+            h4.text-center Regente en farmacia
+            figure.mt-4
+              img(src='@/assets/curso/tema4/39.png')
+          .col-lg-6
+            h4.text-center Farmacéutico
+            figure.text-center.mt-4
+              img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
+    
+    p.mt-5(data-aos="fade-up") Las heces. orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes. excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="fade-up") Es así como los Elementos de protección Personal que debe usar un regente de farmacia son:
+
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+      .col-xl-9.m-auto
+        ImagenInfografica.infografia4.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/40.svg' data-aos="zoom-in-up")
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Mójese las manos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Apliques suficiente jabón para cubrir todas las superficies de las manos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;")  Frótese de las palmas de las manos entre sí.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="39%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="39%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese las palmas de las manos entre sí, con los dedos entrelazados.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="39%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="65%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Rodeando el pulgar izquierdo con la palma de la mano derecha, frótese con un movimiento de rotación, y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="65%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="65%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Enjuáguese las manos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="92%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Séqueselas con una toalla de un solo uso.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="92%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Utilice la toalla para cerrar el grifo.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="92%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Sus manos son seguras.
+    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+      h5.text-white.mb-0 ¿Cómo lavarse las manos?
+    p.mt-4(data-aos="zoom-in") ¡LÁVESE LAS MANOS SI ESTÁN VISIBLEMENTE SUCIAS! #[br] De lo contrario, use un poco de desinfectante de manos #[br] Duración del lavado entre 40 y 60 segundos
+    p(data-aos="zoom-in") Fuente: Organización Mundial de la Salud
+
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+      .col-xl-9.m-auto
+        ImagenInfografica.infografia4.color-acento-botones
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/41.svg' data-aos="zoom-in-up")
+          .tarjeta.color-acento-botones.bg-white.p-3(x="30%" y="19%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Deposite en la palma de la mano una dosis de producto suficiente para cubrir todas las superficies.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="73%" y="19%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese de las palmas de las manos entre sí.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="54%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="54%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese las palmas de las manos entre sí, con los dedos entrelazados.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="73%" y="54%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="84%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese con el movimiento de rotación el pulgar izquierdo, atrapándolo con la palma de la mano derecha y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="84%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="73%" y="84%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Sus manos son seguras.
+    
+    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+      h5.text-white.mb-0  ¿Cómo desinfectarse las manos?
+    p.mt-4(data-aos="zoom-in") ¡Desinfectes las manos por higiene! Lávese las manos solo cuando estén visiblemente sucias. #[br] Duración de todo el procedimiento:  20 y 30 segundos.
+    p(data-aos="zoom-in") Fuente: Organización Mundial de la Salud
+
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+      .col-xl-9.m-auto
+        ImagenInfografica.infografia4.color-acento-contenido
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/42.svg' data-aos="zoom-in-up")
+          .tarjeta.color-acento-botones.bg-white.p-3(x="20%" y="36%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Antes de tocar al paciente ¿Cuándo? Lávese las manos antes de tocar al paciente cuando se acerque a él ¿Por qué? Para proteger al paciente de los gérmenes dañinos que tiene usted en las manos.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="38.5%" y="26%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Antes de realizar una tarea limpia aséptica ¿Cuándo? Lávese las manos inmediatamente antes de realizar una limpia/aséptica ¿Por qué? Para proteger al paciente de los gérmenes dañinos que podrían entrar en su cuerpo incluidos los gérmenes del propio paciente.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="15%" y="64.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Después del riesgo de exposición a líquidos corporales ¿Cuándo? Lávese las manos inmediatamente después de un riesgo de exposición a líquidos corporales (y tras quitarse los guantes) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="85%" y="35%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Después de tocar al paciente ¿Cuándo? Lávese las manos después de tocar a un paciente y la zona que lo rodea cuando deje la cabecera del paciente ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="98%" y="85%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Después del contacto con el entorno del paciente ¿Cuándo? Lávese las manos después de tocar cualquier objeto o mueble del entorno inmediato del paciente, cuando lo deje (incluso aunque no haya tocado al paciente) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.
+    
+    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+      h5.text-white.mb-0 5 momentos para la higiene de las manos
+    p.mt-3(data-aos="zoom-in") Fuente: Organización Panamericana de la Salud
+
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+      .col-xl-8.m-auto
+        ImagenInfografica.infografia4.color-acento-contenido
+          template(v-slot:imagen)
+            figure
+              img(src='@/assets/curso/tema4/43.svg' data-aos="zoom-in-up")
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="9%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Lávate las manos con agua y jabón antes de ponerse el tapabocas.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="60%" y="9%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Revisa que el tapabocas se encuentre en buen estado, asegúrate que no tenga defectos, agujeros ni desgarros.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="63%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Revisa que el tapaboca se encuentre del lado correcto. El interior de la mayoría de los tapabocas es de color blanco mientras que el exterior es de otros colores.
+          .tarjeta.color-acento-botones.bg-white.p-3(x="60%" y="63%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+            p.mb-0(style="color:inherit;") Si el tapaboca tiene borde flexible en uno de sus lados este debe ir en la parte superior, moldea la banda sobre el puente de la nariz.
+    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+      h5.text-white.mb-0  Postura del tapabocas
+    p.mt-4(data-aos="zoom-in") Ten en cuenta estos pasos
+    p.mt-3(data-aos="zoom-in")  Se invita al aprendiz a ver el vídeo de Recomendaciones al momento de usar el tapabocas ubicado en el material complementario
+    p.mt-3(data-aos="zoom-in") Universidad Piloto de Colombia. (2020, May 27)
+
+    h5.mt-5(data-aos="fade-up") Bioseguridad y seguridad del paciente
+
+    ul.fa-ul.mt-4.mb-0
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-circle.fa-li(style="font-size:6px;")
+        | Se lava las manos con la técnica de la OMS antes y después del procedimiento.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-circle.fa-li(style="font-size:6px;")
+        | Higienizar las manos antes y después de la preparación del medicamento.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-circle.fa-li(style="font-size:6px;")
+        | Utiliza los elementos de protección personal (gafas de seguridad, guantes, gorro, tapabocas y bata) según corresponda.
+      li.mb-2(data-aos="fade-right")
+        i.fas.fa-circle.fa-li(style="font-size:6px;")
+        | Mantiene los dispositivos médicos y el ambiente limpio y organizado.
+      li(data-aos="fade-right")
+        i.fas.fa-circle.fa-li(style="font-size:6px;")
+        | Mantiene la técnica aséptica: Desinfecta los equipos que entran en contacto con la piel del paciente o del profesional.
+
+
+    h5.mt-5(data-aos="fade-up") Guantes desechables
+
+    .col-xl-10.m-auto.mt-5
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-up")
+        .bloque-texto-g__img(
+          :style="{'background-image': `url(${require('@/assets/curso/tema4/44.png')})`}"
+        )
+        .bloque-texto-g__texto.p-4
+          p.mb-0  Los guantes desechables, de látex o nitrilo, son para un solo uso, para evitar cualquier tipo de contaminación cruzada. Primero que todo, debe seleccionar la talla que corresponde a la mano. Es conveniente que el guante quede ajustado para evitar arrugas y aumentar la sensibilidad y el tacto.
+          br
+          br
+          | Antes de su colocación es necesario observar el par de guantes para asegurarse de imperfecciones o mal estado de conservación, de tal manera que se puedan descartar con tiempo.
+          br
+          | A continuación, se muestra cómo debe ser la postura y el retiro de los guantes desechables.
+
+
+
+
+
+
 
  
 
@@ -415,4 +823,14 @@ export default {
 <style lang="sass">
 .tabs-c__tab--active span
   font-weight: bold
+.infografia3 .img-infografica__item__dot
+  padding: 1.5rem
+  left: -14px
+.infografia3.img-infografica.color-secundario .img-infografica__item__numero, .img-infografica-b.color-secundario .img-infografica__item__numero
+  color: #fff
+  font-weight: bold
+  font-size: 23px
+.infografia4 .img-infografica__item__dot
+  padding: 1.3rem
+  left: -10px
 </style>
