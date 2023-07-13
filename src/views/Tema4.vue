@@ -791,6 +791,236 @@
           | Antes de su colocación es necesario observar el par de guantes para asegurarse de imperfecciones o mal estado de conservación, de tal manera que se puedan descartar con tiempo.
           br
           | A continuación, se muestra cómo debe ser la postura y el retiro de los guantes desechables.
+    
+    .col-xl-9.m-auto.mt-5
+      ImagenInfografica.infografia4.color-acento-botones
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema4/45.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Extraer un guante de la caja.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Identifique el dedo pulgar y enfundarlo en una mano.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Hasta obtener una perfecta adaptación a la mano (ausencia de arrugas) estirando desde el extremo abierto.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Extraer un segundo guante.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Realizar el mismo procedimiento.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Guantes listos para el uso.
+
+    .p-3(style="background-color:#E8E8E8;" data-aos="zoom-in-up")
+      h5 Postura de guantes limpios
+      p.mb-0 (Evite el contacto de los guantes con superficies o con el paciente, durante la postura.)
+    
+    .col-xl-9.m-auto.mt-5
+      ImagenInfografica.infografia4.color-acento-botones
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema4/46.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Pellizcar por el exterior del primer guante.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Retirar sin tocar la parte inferior del guante.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Retirar el guante en su totalidad.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Recoger el primer guante con la otra mano.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Retirar el segundo guante introduciendo los dedos por el interior.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="74%" y="61%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Retirar el guante sin tocar la parte externa del mismo.
+
+    .p-3(style="background-color:#E8E8E8;" data-aos="zoom-in-up")
+      h5.mb-0 Retiro de guantes
+
+    Separador.mt-5
+
+    .titulo-segundo
+      h2#t_4_5 4.5  Técnica aséptica
+    
+    p(data-aos="fade-up") Es la técnica que se utiliza para eliminar la presencia de microorganismos patógenos en un área u objeto determinado, siendo los siguientes, los términos importantes para entender la técnica:
+
+    .col-xl-11.m-auto.mt-5
+      ImagenInfografica.infografia5.color-acento-contenido
+        template(v-slot:imagen)
+          figure
+            img(src='@/assets/curso/tema4/47.svg' data-aos="zoom-in-up")
+        .tarjeta.color-acento-botones.bg-white.p-3(x="12%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Libre de microorganismos.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="37%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Remover con agua y jabón la mugre o suciedad de un objeto o superficie.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="63%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Son las medidas empleadas para prevenir o combatir la infección destruyéndola o inhibiendo las bacterias por medio de agentes físicos o químicos. No destruye esporas.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="88%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Aplicación de sustancias químicas para inhibir o reducir el número de microorganismos de la piel viva, mucosas o heridas, de tal forma que no se inicien procesos infecciosos. 
+        .tarjeta.color-acento-botones.bg-white.p-3(x="12%" y="46%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Sustancia química de aplicación tópica sobre tejidos vivos (piel intacta, mucosas, heridas, entre otros), que destruye o inhibe los microorganismos sin afectar sensiblemente a los tejidos donde se aplica.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="37%" y="46%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Objeto o elemento libre de todo microorganismo (patógeno y no patógeno) incluyendo esporas.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="63%" y="46%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Cuando un objeto estéril se pone en contacto con otro sucio o infectado por microorganismos.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="88%" y="46%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Superficies o área donde se trabaja con elementos limpios o estériles. 
+        .tarjeta.color-acento-botones.bg-white.p-3(x="12%" y="72%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Superficies o área donde se desechan fluidos corporales, depósito y lugar para lavar y descontaminar elementos utilizados con los pacientes, sitio donde se almacena los compreseros con la ropa sucia de los pacientes.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="37%" y="72%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Agente químico que impide la reproducción de bacterias. 
+        .tarjeta.color-acento-botones.bg-white.p-3(x="63%" y="72%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Sustancia que destruye bacterias.
+        .tarjeta.color-acento-botones.bg-white.p-3(x="88%" y="72%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Sustancia tenso activo diseñada para remover y eliminar la contaminación indeseada de alguna superficie. Los detergentes de uso doméstico, no usar en instrumental médico. 
+        .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="98%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Sustancia en la que se combina un detergente y un desinfectante químico. No todos los detergentes y desinfectantes son compatibles. 
+        .tarjeta.color-acento-botones.bg-white.p-3(x="63%" y="98%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
+          p.mb-0(style="color:inherit;") Son detergentes que contienen enzimas proteolíticas que disuelven la materia orgánica y están especialmente diseñados para el lavado de instrumental y equipo médico.
+    
+    h5.mt-5(data-aos="zoom-in") Compuestos utilizados en limpieza, desinfección y antisepsia
+    p.mt-4(data-aos="zoom-in") En el entorno hospitalario y donde se atiende pacientes, como consultorios, droguerías, farmacias, la desinfección se realiza utilizando diferentes agentes químicos; la desinfección se clasifica de acuerdo con el nivel o al espectro de actividad del agente:
+
+    br
+    .row.mt-5
+      .col-lg.mb-5
+        .p-4.h-100(style="border:5px #8CBCFA solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
+          .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
+            span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#8CBCFA;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 1
+          h5.mb-0.text-center.mt-5.mb-5(data-aos="zoom-in") Desinfección de alto nivel
+          p.mt-4.text-center(data-aos="zoom-in")  Eliminan todos los microorganismos, excepto gran cantidad de esporas. Los liberadores de cloro en concentraciones muy altas pueden ser considerados de alto nivel, pero debido a sus efectos corrosivos, no son recomendados para inmersión de equipos médicos. 
+      .col-lg.mb-5
+        .p-4.h-100(style="border:5px #00BCD4 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
+          .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
+            span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#00BCD4;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 2
+          h5.mb-0.text-center.mt-5(data-aos="zoom-in") Desinfección de nivel intermedio
+          p.mt-4.text-center(data-aos="zoom-in") Elimina mycobacterium, bacterias en estado vegetativo, mayoría de virus y hongos, pero no necesariamente elimina esporas. 
+      .col-lg.mb-5
+        .p-4.h-100(style="border:5px #FF9D00 solid;border-radius:20px;position:relative;box-shadow:0px 0px 20px rgba(0,0,0,.12);")
+          .text-center(style="position:absolute;width:100%;top:-30px;left:0;") 
+            span.text-white.fw-bold(data-aos="zoom-in-down" style="background-color:#FF9D00;border:9px #fff solid;border-radius:100%;font-size:40px;padding:.4rem 1.2rem;box-shadow:0px 0px 20px rgba(0,0,0,.1);") 3
+          h5.mb-0.text-center.mt-5(data-aos="zoom-in") Desinfección de bajo nivel
+          p.mt-4.text-center(data-aos="zoom-in") Puede matar algunos hongos y algunos virus; no elimina esporas ni mycobacterium tuberculoso.
+    
+    p.mt-5(data-aos="fade-up") En la siguiente tabla se describen los niveles de desinfección:
+    
+    .titulo-sexto.color-acento-contenido.mt-5
+      h5.d-block Tabla 4
+      span Nivel de desinfección de acuerdo con el tipo de microorganismos
+
+    .mt-4
+      .tabla-a.color-acento-contenido(data-aos="zoom-in-up")
+        table
+          thead
+            tr(style="background-color:#F6F6F6;")
+              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Nivel
+              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Desinfectantes
+              th.p-2.text-center(style="border-color:#E1E1E1;" colspan="3") Bacterias
+              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Hongos
+              th.p-2.text-center(style="border-color:#E1E1E1;" colspan="2") Virus
+            tr(style="background-color:#F6F6F6;")
+              th.p-2.text-center(style="border-color:#E1E1E1;") Vegetativas
+              th.p-2.text-center(style="border-color:#E1E1E1;") Bacilos #[br] tuberculosos
+              th.p-2.text-center(style="border-color:#E1E1E1;") Esporas
+              th.p-2.text-center(style="border-color:#E1E1E1;") Lípido y #[br] tamaño medio
+              th.p-2.text-center(style="border-color:#E1E1E1;") Lípido y #[br] tamaño pequeño
+          tbody
+            tr
+              td.p-3.fw-bold(style="border-color:#E1E1E1;") Alto
+              td.p-3(style="border-color:#E1E1E1;") Glutaraldehído amonio cuaternario de quinta generación, formaldehído, ácido peracético al 1%, peróxido de hidrógeno al 6%, ortoftalaldehído al 0 55%, ácido peracético con peróxido de hidrógeno.
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+            tr
+              td.p-3.fw-bold(style="border-color:#E1E1E1;") Intermedio
+              td.p-3(style="border-color:#E1E1E1;") Alcoholes, cloro y compuestos clorados, amonio cuaternario de tercera y cuarta generación.
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") -
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+            tr
+              td.p-3.fw-bold(style="border-color:#E1E1E1;") Bajo
+              td.p-3(style="border-color:#E1E1E1;") Amonio cuaternario de primera y segunda generación.
+              td.p-3.text-center(style="border-color:#E1E1E1;") +
+              td.p-3.text-center(style="border-color:#E1E1E1;") -
+              td.p-3.text-center(style="border-color:#E1E1E1;") -
+              td.p-3.text-center(style="border-color:#E1E1E1;") -/+
+              td.p-3.text-center(style="border-color:#E1E1E1;") -
+              td.p-3.text-center(style="border-color:#E1E1E1;") -/+
+    
+    p.mt-5(data-aos="fade-up") El protocolo de limpieza de limpieza y desinfección de las superficies y áreas, está dictado por el siguiente procedimiento: 
+
+    .tarjeta.tarjeta--gris.p-4.mt-5
+      PasosB.color-secundario
+        .row.col-lg-11.m-auto(titulo="Cronograma")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/48.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Realizar un cronograma de limpieza para las distintas áreas.
+        .row.col-lg-11.m-auto(titulo="Equipos")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/49.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Alistar equipos y materiales requeridos para el proceso de limpieza y desinfección.
+        .row.col-lg-11.m-auto(titulo="EPP")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/50.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Emplear Elementos de Protección Personal (EPP)durante todo el procedimiento.
+        .row.col-lg-11.m-auto(titulo="Artículos de limpieza")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/51.png')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Preparar la cantidad necesaria de solución de limpieza para el aseo diario, (según cantidad de superficies y duración o estabilidad de la preparación). 
+        .row.col-lg-11.m-auto(titulo="Limpieza en húmedo")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/52.png')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Emplear un paño húmedo para limpiar las paredes, los suelos y las otras superficies en vez de barrer con escoba o quitar el polvo en seco, para reducir que se propaguen los microorganismos y el polvo.
+        .row.col-lg-11.m-auto(titulo="Direccionamiento limpieza")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/53.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Lavar las superficies de arriba hacia abajo para que la suciedad caiga al suelo y sea lo último de recoger.
+        .row.col-lg-11.m-auto(titulo="Jerarquía limpieza")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/54.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Limpiar primero las áreas más altas y de ahí, siga limpiando hacia abajo - por ejemplo, se debe limpiar primero las lámparas del techo, después las mesas, luego los estantes, y como último, el piso. Utilice un paño de limpieza diferente para las superficies frecuentemente tocadas y por ende con mayor probabilidad de estar contaminadas.
+        .row.col-lg-11.m-auto(titulo="Remoción mecánica")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/55.png')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Hacer la remoción mecánica entregando y friccionando las superficies.
+        .row.col-lg-11.m-auto(titulo="Proceso limpieza")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/56.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Emplear trapeadores y paños limpios/desinfectados cada vez que se inicie un proceso de limpieza en cada ambiente de las diferentes áreas.
+        .row.col-lg-11.m-auto(titulo="Exclusividad materiales")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/57.png')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Los traperos deben ser exclusivos para cada área y se deben desinfectar entre un ambiente y otro (Ej. entre habitaciones) y al finalizar la totalidad del área respectiva.
+        .row.col-lg-11.m-auto(titulo="Desinfección materiales")
+          .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
+            figure
+              img(src='@/assets/curso/tema4/58.svg')
+          .col-md-6.col-lg-8(style="place-self:center;")
+            p Lavar, desinfectar y secar el contenedor utilizado para preparar la solución de limpieza con detergente líquido, enjuagar con agua y desinfectar con el desinfectante de nivel intermedio/bajo en uso para minimizar el grado de contaminación bacteriana.
 
 
 
@@ -833,4 +1063,9 @@ export default {
 .infografia4 .img-infografica__item__dot
   padding: 1.3rem
   left: -10px
+.infografia5 .img-infografica__item__dot
+  padding: 1.5rem
+  left: -10px
+.infografia5.img-infografica.color-acento-contenido .img-infografica__item__dot:before, .img-infografica.color-acento-contenido .img-infografica__item__dot:after, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:after
+  background-color: #000000 !important
 </style>
