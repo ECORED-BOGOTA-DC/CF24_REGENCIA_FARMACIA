@@ -8,7 +8,7 @@
       h1 Seguridad del paciente
     
     p(data-aos="zoom-in") La política de seguridad del paciente, no solo se refiere al ambiente hospitalario, también se pueden presentar fallas activas o acciones inseguras durante la administración de un medicamento en la residencia de los pacientes, en las droguerías y farmacias-droguerías y en los transportes asistenciales básicos o medicalizados, por lo que se prioriza la búsqueda de barreras de seguridad para minimizar los incidentes y eventos adversos durante la administración de un medicamento.
-    p.mt-4(data-aos="zoom-in") A continuación, se definen algunos conceptos necesarios para #[span.p-1(style="background-color:#E8F7FF;") entender la diferencia entre incidentes y eventos adversos (INVIMA, 2015)]
+    p.mt-4(data-aos="zoom-in") A continuación, se definen algunos conceptos necesarios para #[span.p-1(style="background-color:#E8F7FF;") entender la diferencia entre incidentes y eventos adversos (INVIMA, 2015)].
     
     TabsB.color-acento-contenido.mt-5
       .py-4.py-md-5(titulo="Evento adverso")
@@ -146,10 +146,10 @@
           p Procesamiento de la orden, composición y procesamiento del medicamento.
         .row(data-aos="zoom-in")
           h5 Administración
-          p Administración del medicamento correcto al paciente correcto; Administración en el momento indicado; Información al paciente acerca de la administración del medicamento.
+          p Administración del medicamento correcto al paciente correcto; administración en el momento indicado; información al paciente acerca de la administración del medicamento.
         .row(data-aos="zoom-in")
           h5 Seguimiento
-          p Seguimiento y documentación de la respuesta del paciente; Identificación y reporte de las reacciones adversas a medicamentos; Información al médico tratante para que reevalúe la selección del medicamento, dosis, vía, frecuencia y duración del tratamiento. 
+          p Seguimiento y documentación de la respuesta del paciente; identificación y reporte de las reacciones adversas a medicamentos; Información al médico tratante para que reevalúe la selección del medicamento, dosis, vía, frecuencia y duración del tratamiento. 
     
     p.mt-5(data-aos="fade-up") Los pasos susceptibles de error en el proceso de medicación son:
 
@@ -168,7 +168,7 @@
 
     .col-xl-10.col-lg-10.m-auto.mt-5
       .cajon.color-primario.p-4(style="background-color:#E2EEFE;")
-        p.mb-0(data-aos="zoom-in") La administración de cualquier tipo de medicamento requiere de una alta responsabilidad, más aún cuando el procedimiento se realiza fuera del área hospitalaria y no se cuenta con apoyo técnico y tecnológico que se pueda utilizar en el momento oportuno.
+        p.mb-0(data-aos="zoom-in") La administración de cualquier tipo de medicamento requiere de una alta responsabilidad, más aun cuando el procedimiento se realiza fuera del área hospitalaria y no se cuenta con apoyo técnico y tecnológico que se pueda utilizar en el momento oportuno.
 
     p.mt-5(data-aos="fade-up") Una estrategia para disminuir el error o fallo en la administración de medicamentos es definitivamente la verificación de los 10 correctos y los 4 YO, como se puede ver a continuación: 
 

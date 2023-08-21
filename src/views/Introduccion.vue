@@ -13,7 +13,7 @@
         :style="{'background-image': `url(${require('@/assets/curso/intro1.png')})`}"
       )
       .bloque-texto-g__texto.p-4
-        p.mb-0 Las acciones de detección, prevención y tratamiento oportuno de los eventos adversos relacionados con la administración de medicamentos son frecuentes tanto en los entornos hospitalarios como en los ambulatorios, se reflejan en un aumento de la morbimortalidadmorbi mortalidad y por lo tanto se considera un problema de salud pública con alto costo económico. De acuerdo con la política de seguridad del paciente, a nivel nacional como internacional, se ha encontrado que el uso seguro de medicamentos es una de las medidas efectivas para la prevención de situaciones de riesgo para la salud humana.
+        p.mb-0 Las acciones de detección, prevención y tratamiento oportuno de los eventos adversos relacionados con la administración de medicamentos son frecuentes tanto en los entornos hospitalarios como en los ambulatorios, se reflejan en un aumento de la morbimortalidad y por lo tanto se considera un problema de salud pública con alto costo económico. De acuerdo con la política de seguridad del paciente, a nivel nacional como internacional, se ha encontrado que el uso seguro de medicamentos es una de las medidas efectivas para la prevención de situaciones de riesgo para la salud humana.
 
     .col-xl-8.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")

@@ -7,11 +7,11 @@
       .col-6.col-md-4.col-lg-3.mb-4.mb-md-0
         .tarjeta.h-100.d-flex.align-items-center.p-4
           figure
-            img(src="@/assets/template/completar.svg", alt="Texto que describa la imagen")
+            img(src="@/assets/template/completar-espacios.svg", alt="Imagen decorativa")
       .col-12.col-md-8.col-lg-9
         .titulo-segundo
           h2 El cuidado en la administración de medicamentos
-        p.mb-4 Identificar la política de seguridad del paciente a nivel nacional, para garantizar la adecuada administración de medicamentos, con el fin de evitar la morbilidad y el problema de salud pública que esto conlleva
+        p.mb-4 Identificar la política de seguridad del paciente a nivel nacional, para garantizar la adecuada administración de medicamentos, con el fin de evitar la morbilidad y el problema de salud pública que esto conlleva.
         .tarjeta.actividad.p-3
           .row.justify-content-around.align-items-center            
             .col-sm.mb-3.mb-sm-0

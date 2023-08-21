@@ -95,7 +95,7 @@
             figure
               img(src='@/assets/curso/tema1/8.png')
           .col-lg-6
-            p La vigilancia y control sobre los procedimientos de inyectología corresponden a las entidades territoriales de salud que hayan autorizado a dichos establecimientos la práctica de estas actividades y la oferta del servicio a la comunidad circundante.v
+            p La vigilancia y control sobre los procedimientos de inyectología corresponden a las entidades territoriales de salud que hayan autorizado a dichos establecimientos la práctica de estas actividades y la oferta del servicio a la comunidad circundante.
 
 
 

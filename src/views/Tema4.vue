@@ -214,16 +214,16 @@
           p Los protozoos se clasifican en:
           .ps-3.pe-2.mt-2
             .p-1(style="max-width:200px;background-color:#FF9D00;border:3px white solid;border-radius:4px;")
-              h5.mb-0.ps-2 Rizópodos
+              h5.mb-0.ps-2.text-center Rizópodos
             p.mt-2 Desplazamiento mediante pseudópodos (falsos pies), que al mismo tiempo les sirven para atrapar el alimento solido e introducirlo al citoplasma lo que se llama: fagocitosis.
             .p-1.mt-4(style="max-width:200px;background-color:#00BCD4;border:3px white solid;border-radius:4px;")
-              h5.mb-0.ps-2 Flagelados
+              h5.mb-0.ps-2.text-center Flagelados
             p.mt-2 Células dotadas de uno o más flagelos, llamadas “colas” con las cuales se impulsan hacia adelante en el medio ambiente en que se encuentren.
             .p-1.mt-4(style="max-width:200px;background-color:#8CBCFA;border:3px white solid;border-radius:4px;")
-              h5.mb-0.ps-2 Ciliados
+              h5.mb-0.ps-2.text-center Ciliados
             p.mt-2 La membrana plasmática se encuentra rodeada de cilios, especie de filamentos más pequeños y numerosos que los flagelos, que también sirven para movilizarse.
             .p-1.mt-4(style="max-width:200px;background-color:#5B33DB;border:3px white solid;border-radius:4px;")
-              h5.mb-0.ps-2.text-white Esporozoos
+              h5.mb-0.ps-2.text-white.text-center Esporozoos
             p.mt-2 Son los famosos parásitos, con poca movilidad, pero poseen un tipo de reproducción asexual que consiste en producir esporas, que generan un nuevo individuo idéntico, los cuales son muy resistentes. Esta forma de división múltiple es conocida como esporulación.
           p.mt-1 Ejemplos de protozoos: Paramecio, Giardia. Amoeba. Tricomona; también son protozoos el origen de infecciones como la Malaria, Amebiasis y toxoplasmosis. 
 
@@ -348,7 +348,7 @@
           tbody
             tr(style="background-color:#F6F6F6;")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Cavidad oral
-              td.p-4(style="border:0;") La flora oral es de tipo mixto, gérmenes aerobios y anaerobios. Las bacterias que se adhieren a la superficie dental, al aumentar por falta de higiene. producen enfermedades como caries y periodontitis.
+              td.p-4(style="border:0;") La flora oral es de tipo mixto, gérmenes aerobios y anaerobios. Las bacterias que se adhieren a la superficie dental, al aumentar por falta de higiene, producen enfermedades como caries y periodontitis.
             tr(style="background-color:#FFF;")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Refrigeración
               td.p-4(style="border:0;") El tubo digestivo alberga muchas bacterias responsables de la síntesis de Vit K y Vit del complejo B. Además, compite con los microorganismos patógenos por nutrientes y receptores y elabora bacteriocinas.
@@ -486,7 +486,7 @@
       h2#t_4_4 4.4  Bioseguridad
     
     p(data-aos="zoom-in") Es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se realizan como medidas preventivas, con el fin de mantener el control de factores de riesgo laborales originarios de agentes biológicos, físicos o químicos, al realizar procedimientos que pueden afectar la salud y la seguridad de los trabajadores de la salud, pacientes, cuidadores, visitantes y del medio ambiente. 
-    p.mt-4(data-aos="zoom-in") Se debe evitar el contacto y/o exposición de la piel (intacta o lesionada) o mucosas, con los fluidos corporales, teniendo como premisa que todos los pacientes son considerados potencialmente infecciosos, sin importar el diagnóstico o la afinidad con el individuo. Por lo anterior, se debe fomentar el uso correcto de los Elementos de protección personal (E.P.P), el lavado de manos antes y después del contacto con áreas, equipos, pacientes, talento humano en salud, cuidadores o familiares, higienización o desinfección de manos, los cinco momentos.  
+    p.mt-4(data-aos="zoom-in") Se debe evitar el contacto y/o exposición de la piel (intacta o lesionada) o mucosas, con los fluidos corporales, teniendo como premisa que todos los pacientes son considerados potencialmente infecciosos, sin importar el diagnóstico o la afinidad con el individuo. Por lo anterior, se debe fomentar el uso correcto de los elementos de protección personal (E.P.P), el lavado de manos antes y después del contacto con áreas, equipos, pacientes, talento humano en salud, cuidadores o familiares, higienización o desinfección de manos.
     p.mt-4(data-aos="zoom-in") Los fluidos del cuerpo son:
 
     ul.fa-ul.mt-4.mb-0
@@ -524,8 +524,8 @@
         i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
         | Cualquier otro líquido contaminado con sangre.
 
-    p.mt-5(data-aos="zoom-in") Las heces. orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes. excepto si están visiblemente contaminados con sangre.
-    p.mt-4(data-aos="zoom-in") Es así como los Elementos de protección Personal que debe usar un regente de farmacia son:
+    p.mt-5(data-aos="zoom-in") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="zoom-in") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
 
     .tarjeta.tarjeta--azul.p-4.pt-0.p-md-5.mt-4(style="padding-top:0px !important;")
       SlyderA(tipo="b")
@@ -650,8 +650,8 @@
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;")
     
-    p.mt-5(data-aos="fade-up") Las heces. orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes. excepto si están visiblemente contaminados con sangre.
-    p.mt-4(data-aos="fade-up") Es así como los Elementos de protección Personal que debe usar un regente de farmacia son:
+    p.mt-5(data-aos="fade-up") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="fade-up") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
 
     .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
       .col-xl-9.m-auto

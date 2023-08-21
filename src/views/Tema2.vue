@@ -103,7 +103,7 @@
             ul.fa-ul.mt-3.mb-0
               li.mb-2(data-aos="fade-right")
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Para el control de la cadena de frío, durante su mantenimiento los refrigeradores deben estar a la sombra y alejados de fuentes de calor, separados de techos y Paredes mínimo 15 cm. Adicionalmente, deben disponer de mecanismos que registren la temperatura.
+                | Para el control de la cadena de frío, durante su mantenimiento los refrigeradores deben estar a la sombra y alejados de fuentes de calor, separados de techos y paredes mínimo 15 cm. Adicionalmente, deben disponer de mecanismos que registren la temperatura.
           .col-lg-6
             figure
               img(src='@/assets/curso/tema2/4.svg')
