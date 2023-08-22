@@ -92,7 +92,7 @@
           figure
             img(src='@/assets/curso/tema3/10.png')
         .row
-          h5 Daño dental
+          h5 Muerte
           figure
             img(src='@/assets/curso/tema3/11.png')
     
@@ -210,7 +210,6 @@
     .mt-4
       .tabla-a.color-acento-contenido(data-aos="zoom-in-up")
         table
-          caption.fw-normal(style="background-color:#F6F6F6;") Referencia Tabla - Norma APA
           thead
             tr(style="background-color:#E8E8E8;")
               th.p-4(style="border:0;") Caracterización del proceso
