@@ -149,7 +149,7 @@
           p Administración del medicamento correcto al paciente correcto; administración en el momento indicado; información al paciente acerca de la administración del medicamento.
         .row(data-aos="zoom-in")
           h5 Seguimiento
-          p Seguimiento y documentación de la respuesta del paciente; identificación y reporte de las reacciones adversas a medicamentos; Información al médico tratante para que reevalúe la selección del medicamento, dosis, vía, frecuencia y duración del tratamiento. 
+          p Seguimiento y documentación de la respuesta del paciente; identificación y reporte de las reacciones adversas a medicamentos; información al médico tratante para que reevalúe la selección del medicamento, dosis, vía, frecuencia y duración del tratamiento. 
     
     p.mt-5(data-aos="fade-up") Los pasos susceptibles de error en el proceso de medicación son:
 
