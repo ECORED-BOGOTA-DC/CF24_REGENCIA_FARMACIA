@@ -72,7 +72,7 @@
     .row.mt-5
       .col-lg-4.col-md-6.mb-md-0.mb-4
         figure
-          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right")
+          img(src="@/assets/curso/tema5/1.png" data-aos="fade-right" alt="Imagen decorativa")
       .col-lg-8.col-md-6
         ol.lista-ol
           li(data-aos="fade-right")
@@ -135,16 +135,16 @@
     .row.mt-5.col-xl-10.m-auto
       .col-md-6
         figure
-          img(src="@/assets/curso/tema5/2.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema5/2.png" data-aos="zoom-in-up" alt="Imagen con ampolla o vial (vidrio) con el líquido antes de entrar en la inyección")
       .col-md-6
         figure
-          img(src="@/assets/curso/tema5/3.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema5/3.png" data-aos="zoom-in-up" alt="Imagen con ampolla o vial con el líquido extraído en la inyección")
       .col-md-6
         figure
-          img(src="@/assets/curso/tema5/4.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema5/4.png" data-aos="zoom-in-up" alt="Imagen con muestras de ampolla o vial")
       .col-md-6
         figure
-          img(src="@/assets/curso/tema5/5.png" data-aos="zoom-in-up")
+          img(src="@/assets/curso/tema5/5.png" data-aos="zoom-in-up" alt="Imagen con ampolla o vial (plástico) con el líquido antes de entrar en la inyección")
 
 
 

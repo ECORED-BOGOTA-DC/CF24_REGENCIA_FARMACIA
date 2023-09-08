@@ -21,26 +21,26 @@
         .row(titulo="Recurso humano")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/1.png')
+              img(src='@/assets/curso/tema1/1.png' alt="Imagen decorativa")
           .col-lg-6
             p La persona responsable de administrar el medicamento inyectable debe contar con formación certificada y entrenamiento que lo califique para la administración de medicamentos por vía intramuscular. Es importante resaltar que quien realiza el procedimiento debe estar afiliado a la ARL riesgo 3 y debe estar debidamente vacunado con los inmunobiológicos exigidos de acuerdo con la labor realizada. 
             p.mt-4 La persona que realiza los domicilios NO podrá realizar el procedimiento en la residencia del paciente; para poder brindar el servicio de administración de medicamento por vía intramuscular en el lugar de ubicación del paciente, previa presentación de la prescripción médica, la persona calificada y responsable debe trasladarse para realizar el procedimiento en la residencia del paciente que solicita el servicio y contar con los insumos y dispositivos médicos que se requieran.
         .row(titulo="Procedimiento")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/2.png')
+              img(src='@/assets/curso/tema1/2.png' alt="Imagen decorativa")
           .col-lg-6
             p El establecimiento farmacéutico habilitado para el servicio de inyectología, debe contar y aplicar: antes, durante y después del procedimiento, los protocolos de limpieza y desinfección de áreas, bioseguridad, manejo de residuos derivados de la atención en salud; al igual que todo lo relacionado con la salud y seguridad en el entorno laboral. Al mismo tiempo es de imperiosa necesidad contar con el Plan de Gestión de Residuos derivados de la atención en salud PGIRHS.
         .row(titulo="Contravenciones")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/3.png')
+              img(src='@/assets/curso/tema1/3.png' alt="Imagen decorativa")
           .col-lg-6
             p No administrar ningún medicamento por #[strong(style="color:#FF0000;") vía intravenosa] ni practicar #[strong(style="color:#FF0000;") pruebas de sensibilidad]. El dependiente no está autorizado para cambiar o cuestionar la orden médica, hacer un diagnóstico personal, formular o recomendar medicamentos diferentes a los prescritos. Adulterar o modificar de cualquier forma la prescripción médica constituye un delito sancionado penalmente. Es importante recordar que la persona responsable de realizar el procedimiento de inyectología NO podrá violar el principio de confidencialidad de la información del paciente, de acuerdo con su rol como profesional de la salud.
         .row(titulo="Administración del medicamento")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/4.png')
+              img(src='@/assets/curso/tema1/4.png' alt="Imagen decorativa")
           .col-lg-6
             p La administración del medicamento por vía intramuscular solo se podrá realizar con la exigencia de la prescripción médica, la cual debe cumplir con los criterios o requisitos exigidos en el decreto 780 del 2016.
         .row(titulo="Infraestructura y dotación")
@@ -48,7 +48,7 @@
             ImagenInfografica.infografia1.color-acento-contenido
               template(v-slot:imagen)
                 figure
-                  img(src='@/assets/curso/tema1/5.svg')
+                  img(src='@/assets/curso/tema1/5.svg' alt="Imagen decorativa")
               .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="21%" numero="+")
                 p.mb-0(style="color:inherit;") Área especial e independiente. Que brinde privacidad y comodidad al paciente. Iluminación y ventilación natural; temperatura de entre 15 y 25 grados centígrados.
               .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="21%" numero="+")
@@ -83,17 +83,17 @@
             p Formato debidamente diligenciado y firmado por la persona que administra el medicamento. Es importante mantener los registros en archivo, durante el tiempo contemplado en la normatividad vigente. Se presenta un Ejemplo de formato Consentimiento informado para el registro diario del procedimiento.
           .col-lg-12
             figure
-              img(src='@/assets/curso/tema1/6.svg')
+              img(src='@/assets/curso/tema1/6.svg' alt="Imagen que contiene un formato de Consentimiento informado para el registro diario del procedimiento")
         .row(titulo="Posterior a la administración")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/7.png')
+              img(src='@/assets/curso/tema1/7.png' alt="Imagen decorativa")
           .col-lg-6
             p La vigilancia y control sobre los procedimientos de inyectología corresponden a las entidades territoriales de salud que hayan autorizado a dichos establecimientos la práctica de estas actividades y la oferta del servicio a la comunidad circundante.
         .row(titulo="Vigilancia y control")
           .col-lg-6.mb-4.mb-lg-0
             figure
-              img(src='@/assets/curso/tema1/8.png')
+              img(src='@/assets/curso/tema1/8.png' alt="Imagen decorativa")
           .col-lg-6
             p La vigilancia y control sobre los procedimientos de inyectología corresponden a las entidades territoriales de salud que hayan autorizado a dichos establecimientos la práctica de estas actividades y la oferta del servicio a la comunidad circundante.
 

@@ -118,7 +118,7 @@
             | Realiza disposición de los residuos según clasificación vigente. 
       .col-md-6
         figure
-          img(src="@/assets/curso/tema6/1.svg" data-aos="zoom-in-left")
+          img(src="@/assets/curso/tema6/1.svg" data-aos="zoom-in-left" alt="Imagen que explica cómo es la clasificación vigente de los residuos, la cual es de la siguiente manera, de acuerdo al color de la caneca: Gris: orgánicos Azul: papel Naranja: electrónicos Amarillo: plástico Verde: vidrio Rojo: metal Negra: mixtos")
 
 
 

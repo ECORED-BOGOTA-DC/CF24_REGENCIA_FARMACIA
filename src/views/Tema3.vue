@@ -17,7 +17,7 @@
             p Daño no intencionado al paciente o medio ambiente que ocurre como consecuencia de la utilización de un medicamento o dispositivo médico.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/1.png')
+              img(src='@/assets/curso/tema3/1.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Evento adverso serio")
         .row
           .col-lg-7.mb-4.mb-lg-0
@@ -44,28 +44,28 @@
                 | Evento que sea el origen de una malformación congénita.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/2.png')
+              img(src='@/assets/curso/tema3/2.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Incidente adverso")
         .row
           .col-lg-7.mb-4.mb-lg-0
             p Potencial daño no intencionado al paciente, que ocurre como consecuencia de la utilización de un medicamento o dispositivo médico.
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/3.png')
+              img(src='@/assets/curso/tema3/3.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Incidente adverso serio")
         .row
           .col-lg-7.mb-4.mb-lg-0
             p Potencial riesgo de daño no intencionado que pudo haber llevado a la muerte o al deterioro serio de la salud del paciente, pero que por causa del azar o la intervención de un profesional de la salud u otra persona, o una barrera de seguridad, no generó un desenlace adverso. 
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/4.png')
+              img(src='@/assets/curso/tema3/4.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Incidente adverso no serio")
         .row
           .col-lg-7.mb-4.mb-lg-0
             p Potencial riesgo de daño no intencionado diferente a los que pudieron haber llevado a la muerte o al deterioro serio de la salud del paciente, pero que por causa del azar o la intervención de un profesional de la salud u otra persona, o una barrera de seguridad, no generó un desenlace adverso. 
           .col-lg-5
             figure
-              img(src='@/assets/curso/tema3/5.png')
+              img(src='@/assets/curso/tema3/5.png' alt="Imagen decorativa")
     
     p.mt-5(data-aos="fade-up") Los eventos adversos a medicamentos (EAM) ocurren con frecuencia y aumentan la morbimortalidad de los pacientes, constituyéndose en un nuevo problema de la salud pública. El evento adverso a medicamento (EAM) cubre la reacción adversa a medicamentos (RAM) y el error de medicación (EM), como se muestra en las siguientes imágenes.
 
@@ -74,27 +74,27 @@
         .row
           h5 Asma
           figure
-            img(src='@/assets/curso/tema3/6.png')
+            img(src='@/assets/curso/tema3/6.png' alt="Persona con una máscara de oxigeno")
         .row
           h5 Fallas respiratorias
           figure
-            img(src='@/assets/curso/tema3/7.png')
+            img(src='@/assets/curso/tema3/7.png' alt="Doctores auxiliando paciente representado por un maniquí")
         .row
           h5 Paro cardiaco
           figure
-            img(src='@/assets/curso/tema3/8.png')
+            img(src='@/assets/curso/tema3/8.png' alt="Persona que refleja un dolor en el corazón")
         .row
           h5 Reacción alérgica
           figure
-            img(src='@/assets/curso/tema3/9.png')
+            img(src='@/assets/curso/tema3/9.png' alt="Persona con comezón")
         .row
           h5 Daño dental
           figure
-            img(src='@/assets/curso/tema3/10.png')
+            img(src='@/assets/curso/tema3/10.png' alt="Paciente que refleja un dolor de muela")
         .row
           h5 Muerte
           figure
-            img(src='@/assets/curso/tema3/11.png')
+            img(src='@/assets/curso/tema3/11.png' alt="Persona fallecida")
     
     p.mt-5(data-aos="fade-up") A través de la observación detallada de las anteriores imágenes surgen las siguientes preguntas:
 
@@ -176,7 +176,7 @@
       ImagenInfografica.infografia2.color-acento-botones
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema3/12.svg' data-aos="zoom-in-up")
+            img(src='@/assets/curso/tema3/12.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
         .tarjeta.color-acento-botones.bg-white.p-3(x="10%" y="11%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Dosis apropiada acorde a medicamento, paciente e indicación. Indicación terapéutica.
         .tarjeta.color-acento-botones.bg-white.p-3(x="96%" y="11%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -199,7 +199,7 @@
           p.mb-0(style="color:inherit;") Velocidad Gotas-mL/tiempo.
     
     figure.mt-5
-      img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema3/13.png" data-aos="zoom-in-up" alt="Imagen que representa Los 4 YO, los cuales son: Yo preparo el medicamento Yo administro el medicamento Yo registro el medicamento inmediatamente Yo respondo")
     
     p.mt-5(data-aos="zoom-in") Algunos efectos tóxicos aparecen de inmediato, mientras que otros lo hacen pasadas semanas o meses. Una alergia a un fármaco es una reacción inmunitaria provocada por un medicamento. En la primera exposición del paciente a una sustancia extraña (antígeno) el organismo reacciona produciendo anticuerpos. En las exposiciones siguientes el paciente puede reaccionar frente al fármaco como lo hace frente a un antígeno, y desarrollar síntomas de reacción alérgica. Las reacciones alérgicas pueden ser leves o graves, la reacción leve se caracteriza por distintos síntomas, desde la erupción cutánea hasta la diarrea.
 

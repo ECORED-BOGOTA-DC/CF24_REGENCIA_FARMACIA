@@ -64,7 +64,7 @@
                 | Es deber de los fabricantes de los medicamentos y dispositivos médicos indicar las condiciones de luz adecuadas de almacenamiento.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/1.svg')
+              img(src='@/assets/curso/tema2/1.svg' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Temperatura")
         .row
           .col-lg-6.mb-4.mb-lg-0
@@ -79,7 +79,7 @@
                 | Para disminuir la temperatura ambiental del área se recomienda: fortalecer la ventilación con ventiladores, aire acondicionado y adecuación de aislantes térmicos, además dejar espacios libres para circulación del aire.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/2.svg')
+              img(src='@/assets/curso/tema2/2.svg' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Humedad relativa")
         .row
           .col-lg-6.mb-4.mb-lg-0
@@ -94,7 +94,7 @@
                 | Para disminuir la humedad se recomienda: aire acondicionado con extractor de humedad, conservar los medicamentos y dispositivos médicos en las cajas primarias; los productos higroscópicos deben llevar en su empaque original una bolsita de silica gel y garantizar la rotación de estos, buscando un menor tiempo de almacenamiento.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/3.png')
+              img(src='@/assets/curso/tema2/3.png' alt="Imagen decorativa")
       .py-4.py-md-5(titulo="Refrigeración (cadena de frío)")
         .row
           .col-lg-6.mb-4.mb-lg-0
@@ -106,7 +106,7 @@
                 | Para el control de la cadena de frío, durante su mantenimiento los refrigeradores deben estar a la sombra y alejados de fuentes de calor, separados de techos y paredes mínimo 15 cm. Adicionalmente, deben disponer de mecanismos que registren la temperatura.
           .col-lg-6
             figure
-              img(src='@/assets/curso/tema2/4.svg')
+              img(src='@/assets/curso/tema2/4.svg' alt="Imagen decorativa")
     
     .col-xl-8.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
@@ -118,7 +118,7 @@
       h5.d-block Figura 1
       span Mecanismos que garanticen las condiciones de almacenamiento
     figure
-      img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up")
+      img(src="@/assets/curso/tema2/5.svg" data-aos="zoom-in-up" alt="Imagen que indica los mecanismos que deben estar para garantizar las condiciones de almacenamiento, los cuales son: Revisar: registro INVIMA y fecha de vencimiento Verificar y controlar: temperatura de congelación, refrigeración, ambiente. Conservar: lugar seco NO exposición directa a la luz solar y/o artificial. • Registrar la lectura de temperatura en los formatos correspondientes en caso de temperatura ambiente y humedad relativa  • Registrar la lectura de temperatura de refrigerador  • Colocar rotulo al mobiliario y contenedores, asegurando la correcta identificación de las divisiones dentro del crea de almacenamiento.  • Mantener cada medicamento y demás insumo para la salud en la división, anaquel y contenedor asignado, corroborar que el rotulo de identificación corresponda a lo contenido")
 
 
     

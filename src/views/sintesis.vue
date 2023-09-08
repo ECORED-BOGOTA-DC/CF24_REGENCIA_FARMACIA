@@ -7,7 +7,7 @@
     .row.justify-content-center
       .col-lg-10.mb-5
         figure
-          img(src="@/assets/curso/sintesis.svg", alt="alt")
+          img(src="@/assets/curso/sintesis.svg", alt="Esquema gráfico que resume lo abordado en el componente formativo, indicando lo relacionado con la administración de medicamentos vía IM en servicios farmacéuticos, lo cual se compone de: Almacenamiento de medicamentos (temperatura. refrigeración, congelación, humedad relativa) Microbiología (ciencia que estudia los microorganismos) Normatividad para la administración de medicamentos (Decreto 2330 de 2006)")
       .col-auto
         a.anexo.mb-5(:href="obtenerLink('/downloads/sintesis.pdf')" target="_blank")
           .anexo__icono
