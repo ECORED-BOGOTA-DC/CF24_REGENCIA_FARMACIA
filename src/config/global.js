@@ -6,7 +6,12 @@ export default {
       'El uso seguro de los medicamentos envuelve a los pacientes, cuidadores, personal de salud calificado, instituciones prestadoras de servicios de salud y demás actores del Sistema General de Seguridad Social en Salud; ya que comprende las acciones de detección, prevención y tratamiento oportuno de los eventos adversos relacionados con la administración de medicamentos.',
     imagenBannerPrincipal: require('@/assets/curso/portada/banner-principal.png'),
     fondoBannerPrincipal: require('@/assets/curso/portada/fondo-banner-principal.png'),
-    imagenesDecorativasBanner: [],
+    imagenesDecorativasBanner: [
+      {
+        clases: ['banner-principal-decorativo-1', 'd-none', 'd-lg-block'],
+        imagen: require('@/assets/curso/portada/banner-principal-decorativo-1.svg'),
+      },
+    ],
   },
   menuPrincipal: {
     menu: [

@@ -1,14 +1,21 @@
-.banner-principal__row .banner-principal__img
-  width: 400px
-  animation: float1 5s ease-in-out infinite alternate
-  position: relative
+.banner-principal-decorativo
+  &-1
+    animation: rotation 9s infinite linear
+    position: absolute
+    width: 108%
+    bottom: 45%
+    left: -10%
 
-
-@keyframes float1
+@keyframes rotation
   0%
-    transform: translateY(20px)
+    transform: rotate(0deg)
+    opacity: 0
+  50%
+    transform: rotate(180deg)
+    opacity: 1
   100%
-    transform: translateY(0px)
+    transform: rotate(359deg)
+    opacity: 0
   
 .lista-ul--color li, .ol.lista-ol--cuadro li, .lista-ol--cuadro li, .lista-ul--separador li
   display: flex
