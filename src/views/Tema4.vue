@@ -2,26 +2,25 @@
 .curso-main-container.pb-3
   BannerInterno
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5.mb-5
-    .titulo-principal.color-acento-contenido(data-aos="fade-up")
+    .titulo-principal.color-acento-contenido(data-aos="flip-up")
       .titulo-principal__numero
         span 4
       h1 Generalidades de microbiología
     
-    .col-xl-10.m-auto
-      .row
-        .col-lg.mb-4.pe-lg-0.mb-lg-0
-          figure
-            img(src="@/assets/curso/tema4/1.png" data-aos="zoom-in-right" alt="Imagen decorativa")
-        .col-lg.ps-lg-0
-          .h-100.p-4.text-white.d-flex.flex-wrap.align-content-center(style="background-color:#7E5EE3;" data-aos="zoom-in-left")
-            p La microbiología es la ciencia que estudia los microorganismos como los virus, las bacterias, los hongos y los parásitos; todos son organismos microscópicos que hacen parte de la biología de los seres vivos. A este grupo de microorganismos también se les denomina Microbios o Gérmenes.
-            p.mt-4.mb-0 Los microorganismos son células capaces de existir de forma libre o independiente, son los seres vivos más diminutos que solo pueden ser observados a través de un microscopio; la mayoría son unicelulares, son de diferentes tamaños y formas, cada uno posee diversas características por lo que pueden ser patógenos, o sea, causantes de infecciones y enfermedad. 
+    .row.justify-content-center
+      .col-xl-5.col-lg-6.px-0.mb-lg-0.mb-4
+        figure
+          img(src="@/assets/curso/tema4/1.png" data-aos="zoom-in-right" alt="Imagen decorativa")
+      .col-xl-5.col-lg-6.px-0
+        .h-100.p-4.text-white.d-flex.flex-wrap.align-content-center(style="background-color:#7E5EE3;" data-aos="zoom-in-left")
+          p La microbiología es la ciencia que estudia los microorganismos como los virus, las bacterias, los hongos y los parásitos; todos son organismos microscópicos que hacen parte de la biología de los seres vivos. A este grupo de microorganismos también se les denomina Microbios o Gérmenes.
+          p.mt-4.mb-0 Los microorganismos son células capaces de existir de forma libre o independiente, son los seres vivos más diminutos que solo pueden ser observados a través de un microscopio; la mayoría son unicelulares, son de diferentes tamaños y formas, cada uno posee diversas características por lo que pueden ser patógenos, o sea, causantes de infecciones y enfermedad. 
     
     .col-xl-8.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
         p.mb-0(data-aos="zoom-in") El microorganismo patógeno o infeccioso, es cualquier germen capaz de producir en el ser humano (huésped) infección o enfermedad. Tal capacidad es dada por la concentración microbiana, la resistencia microbiana, el tamaño del inóculo y el ciclo en que se encuentre. 
     
-    p.mt-5(data-aos="zoom-in") La vía de transmisión es el mecanismo mediante el cual el germen ingresa al huésped susceptible (aquel que no ha desarrollado inmunidad activa o pasiva frente al germen infectante). Esta puede ser por:
+    p.mt-5(data-aos="fade-right") La vía de transmisión es el mecanismo mediante el cual el germen ingresa al huésped susceptible (aquel que no ha desarrollado inmunidad activa o pasiva frente al germen infectante). Esta puede ser por:
 
     ul.fa-ul.mt-4.mb-0
       li.mb-2(data-aos="fade-right")
@@ -40,76 +39,79 @@
         i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
         | Vectores.
     
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_4_1 4.1  Bacterias, virus, hongos, protozoos
+    Separador
+    #t_4_1.titulo-segundo(data-aos="fade-right")
+      h2 4.1 Bacterias, virus, hongos, protozoos
     
-    p(data-aos="zoom-in") A continuación, se describen las características de los diferentes microorganismos mencionados anteriormente.
+    p(data-aos="fade-right") A continuación, se describen las características de los diferentes microorganismos mencionados anteriormente.
 
-    h5.mt-5(data-aos="fade-up") Bacterias
-    p(data-aos="fade-up") Organismos unicelulares procariotas, se reproducen sin invadir la célula (tuberculosis, cólera, etc.) se caracterizan por:
+    h5.mt-5(data-aos="fade-left") Bacterias
+    p(data-aos="fade-right") Organismos unicelulares procariotas, se reproducen sin invadir la célula (tuberculosis, cólera, etc.) se caracterizan por:
     
     .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4
       SlyderA(tipo="b")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Las bacterias son organismos unicelulares, sin núcleo, diminutos que se alimentan del ambiente en que viven. En algunos casos, ese ambiente será el cuerpo de otro ser vivo.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/2.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p En el cuerpo humano, algunas bacterias ayudan a que el sistema digestivo funcione correctamente e impiden que entren bacterias nocivas en su interior; por el contrario, las bacterias también pueden causar problemas, como las caries dentales, las infecciones de las vías urinarias, las infecciones de oído o la faringitis.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/3.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Otras bacterias se utilizan para elaborar medicamentos y vacunas. Para combatir una infección producida por bacterias, es necesario tomar o inyectar un antibiótico, éste debe ser específico para la clase de bacteria que eta produciendo la infección, lo que significa que cualquier antibiótico no sirve para una infección en el pulmón como en la piel.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/4.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Las bacterias aeróbicas obtienen energía por respiración. Las anaeróbicas por fermentación (degradación de glúcidos en anaerobiosis). Otras utilizan el proceso de putrefacción para su supervivencia. 
             p.mt-4 Ejemplos de bacterias: Escherichia coli y Salmonella, Helicobacter pylori, Neisseria gonorrhoeae, Staphylococcus aureus, Streptococcus, Pseudomonas, ente otras.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/5.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Según su forma, hay cuatro formas básicas muy comunes en las bacterias: 
-            ol.lista-ol
+            ol.lista-ol--cuadro
               li 
-                span.text-bold 1. 
+                .lista-ol--cuadro__vineta
+                  span.text-bold 1
                 | Esférica.
               li 
-                span.text-bold 2. 
+                .lista-ol--cuadro__vineta
+                  span.text-bold 2
                 | Alargada o cilíndrica es un bacilo.
               li 
-                span.text-bold 3. 
+                .lista-ol--cuadro__vineta
+                  span.text-bold 3
                 |  Cuando aparecen uno o más dobleces en la longitud de la célula que le dan forma espiral es un espirilo.
               li 
-                span.text-bold 4. 
+                .lista-ol--cuadro__vineta
+                  span.text-bold 4
                 | Si tiene forma de coma: vibrios.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/6.svg' alt="Imagen decorativa")
     
-    h5.mt-5(data-aos="fade-up") Virus
-    p(data-aos="fade-up") Parásitos celulares que se introducen en la célula para reproducirse (gripe, sida, dengue, etc.) algunas generalidades sobre los virus son:
+    h5.mt-5(data-aos="fade-left") Virus
+    p(data-aos="fade-right") Parásitos celulares que se introducen en la célula para reproducirse (gripe, sida, dengue, etc.) algunas generalidades sobre los virus son:
     
-    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4
+    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4(data-aos="fade-right")
       SlyderA(tipo="b")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Los virus no se consideran células completas, más pequeños que las bacterias; solo son material genético (DNA o RNA) empaquetado dentro de una cubierta proteica, por lo que necesitan usar las estructuras de otras células para poderse reproducir. 
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/7.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Los virus no sobreviven sin estar dentro de un organismo vivo, como, por ejemplo:
             ol.lista-ol
               li 
@@ -122,11 +124,11 @@
                 span.text-bold  
                 | Una planta.
             p.mt-3 Fuera de células vivas, los virus pueden vivir por muy poco tiempo, por esta razón, los virus que se encuentran en fluidos corporales como saliva, moco, esputo, sudor, al quedar en las superficies, como la chapa o manija de una puerta o el asiento de un inodoro, solo pueden vivir durante un período breve de tiempo; morirán rápidamente a menos que entren en contacto con las mucosas de un nuevo organismo vivo. Vale la pena aclarar, que la capacidad que tienen algunos virus de mutar o cambiar rápidamente, ha hecho que se vuelvan más fuertes fuera del huésped y por lo tanto mucho mas agresivos o peligrosos, especialmente para el ser humano.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/8.svg' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Cuando un virus se introduce en el cuerpo de una persona, se multiplican rápidamente hasta hacerla enfermar. Hay virus que originan enfermedades de poca importancia, como la gripe o el resfriado común; también pueden originar enfermedades muy graves, como el SIDA, SARS-CoV 2 y el Ébola, entre otros. Para combatir los virus se utilizan:
             ol.lista-ol
               li 
@@ -137,80 +139,80 @@
                 | Los medicamentos retrovirales.
             p.mt-3 Algunas vacunas sirven para prevenir o mejorar la respuesta inmunológica del organismo.
             p.mt-4 Por lo anterior es importante resaltar que los antibióticos no son eficaces contra los virus.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/9.svg' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p El sistema inmunológico del ser humano utiliza diversas formas para atacar los agentes infecciosos; los virus tratan de evitarlo, haciendo más copias de sí mismo, para de esta forma propagarse a otros huéspedes. Las características o adaptaciones nuevas que hacen evadir las defensas del organismo, es lo que se llama mutación, lo cual se mantiene de una generación a otra del virus, mientras que las defensas de los huéspedes tienden a perderse.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/10.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p El modo en que los huéspedes se defienden de un virus es desarrollando anticuerpos, los cuales se fijan a las proteínas de la superficie exterior del virus, con lo que le impiden entrar a las células del huésped. 
             p.mt-4 Un virus que simula ser diferente a otros que han infectado al huésped tiene una ventaja, ya que el huésped no tiene una inmunidad precedente contra ese virus en forma de anticuerpos. 
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/11.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Muchas adaptaciones virales involucran cambios en la superficie exterior del virus. Un ejemplo típico es el virus que origina la influenza; cuando se inician los síntomas el organismo inicia un proceso de defensas contra ese virus específico, la infección se desarrolla y termina, creando en ese individuo una memoria inmunológica para defenderse posteriormente; sin embargo esa misma persona  con el tiempo se expone o tiene contacto nuevamente con otra persona con el virus de la influenza puede volver a enfermar ya que es una nueva cepa del mismo virus , para lo cual su organismo no está preparado y no se defiende. 
             p.mt-4 Por lo anterior es que para los adultos mayores y los niños es muy importante vacunarse cada año contra la influenza, la cual contiene la información de varias familias de virus y el sistema inmunológico se prepara para defenderse.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/12.png' alt="Imagen decorativa")
     
-    h5.mt-5(data-aos="zoom-in") Se invita al aprendiz a ver el vídeo explicativo Cómo mutan los virus y cómo podría evolucionar el coronavirus, ubicado en el material complementario.
+    h5.mt-5(data-aos="fade-left") Se invita al aprendiz a ver el vídeo explicativo Cómo mutan los virus y cómo podría evolucionar el coronavirus, ubicado en el material complementario.
     
-    h5.mt-5(data-aos="fade-up") Hongos
-    p(data-aos="fade-up") Organismos unicelulares microscópicos o multicelulares macroscópicos; aerobios y heterótrofos, parecidos a las plantas, se caracterizan por:
+    h5.mt-5(data-aos="fade-left") Hongos
+    p(data-aos="fade-right") Organismos unicelulares microscópicos o multicelulares macroscópicos; aerobios y heterótrofos, parecidos a las plantas, se caracterizan por:
     
-    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4
+    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4(data-aos="fade-right")
       SlyderA(tipo="b")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Consiguen el alimento de las plantas, de los alimentos y de los animales en ambientes húmedos y cálidos. Son organismos eucariotas, incapaces de sintetizar sus nutrientes y por lo tanto se consideran saprófitos o parásitos, descomponen la materia orgánica, y son capaces de contaminar los cuerpos de otros seres vivos. Poseen pared celular como las plantas, pero de quitina en lugar de celulosa, y se reproducen mediante esporas, tanto sexual o asexualmente. 
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/13.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Las infecciones por hongos, como el pie de atleta (Tinea pedis), que se aloja en la piel, por la humedad, producto de la sudoración, no representan ningún peligro para una persona sana. Sin embargo, las personas inmunodeprimidas, por enfermedades como el SIDA o el cáncer, pueden desarrollar infecciones por hongos mucho más graves.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/14.png' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Las infecciones por levaduras, que se originan cuando se pierde el equilibro de los microorganismos que habitualmente conviven en el cuerpo no suelen ser peligrosas, sin embargo, al ingresar al torrente sanguíneo se pueden propagar a otras partes del cuerpo; este tipo de infecciones son muy comunes en recién nacidos de bajo peso, personas diabéticas, o pacientes en tratamiento oncológico.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/15.svg' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Las infecciones por hongos son llamadas micóticas y son tratables en su gran mayoría por medicamentos conocidos como fungicidas o antimicóticos; pueden ser transmisibles, como por ejemplo la Candida albicans (origen de la candidiasis de transmisión sexual). 
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/16.png' alt="Imagen decorativa")
     
-    h5.mt-5(data-aos="fade-up") Protozoos
-    p(data-aos="fade-up") Organismos unicelulares, como las bacterias, se hallan en ambientes húmedos o acuáticos, y se pueden considerar animales microscópicos. 
+    h5.mt-5(data-aos="fade-left") Protozoos
+    p(data-aos="fade-right") Organismos unicelulares, como las bacterias, se hallan en ambientes húmedos o acuáticos, y se pueden considerar animales microscópicos. 
     
-    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4
+    .tarjeta.tarjeta--azul.p-4.p-md-5.mt-4(data-aos="zoom-in")
       SlyderA(tipo="b")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p Se les llama de 2 maneras, protozoos o protozoarios, sin embargo, hacen parte de un reino propio llamado protozoa; y forman parte del Reino protista, puesto que se consideran el primer eslabón evolutivo de las células eucariotas, es decir antes de los animales, plantas, hongos y algas. Ostentan movilidad propia, se transportan por medio de flagelos, cilios o del alargamiento de su citoplasma como falsos pies.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/17.svg' alt="Imagen decorativa")
-        .row
-          .col-lg-5.mb-4.mb-lg-0
+        .row.justify-content-center
+          .col-lg-5.order-lg-1.order-2
             p A los protozoarios, les encanta la humedad, por lo cual, las infecciones intestinales y otras enfermedades gastrointestinales, como las amebas y las giardias, fácilmente se transmiten a través del agua contaminada. Algunos protozoos son parásitos lo que significa que para vivir necesitan estar dentro de otro ser vivo. Por ejemplo, el protozoo que causa la malaria crece dentro de los eritrocitos, los cuales destruye cada vez que se reproducen. Otro ejemplo es la ameba, la cual se encapsula formando quistes, para poder vivir fuera del cuerpo humano y en ambientes extremos durante mucho tiempo; sin que esto sea un problema para su supervivencia.
-          .col-lg-7
+          .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/18.svg' alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           p Los protozoos se clasifican en:
           .ps-3.pe-2.mt-2
             .p-1(style="max-width:200px;background-color:#FF9D00;border:3px white solid;border-radius:4px;")
@@ -227,27 +229,26 @@
             p.mt-2 Son los famosos parásitos, con poca movilidad, pero poseen un tipo de reproducción asexual que consiste en producir esporas, que generan un nuevo individuo idéntico, los cuales son muy resistentes. Esta forma de división múltiple es conocida como esporulación.
           p.mt-1 Ejemplos de protozoos: Paramecio, Giardia. Amoeba. Tricomona; también son protozoos el origen de infecciones como la Malaria, Amebiasis y toxoplasmosis. 
 
-    h5.mt-5(data-aos="fade-up") Priones
-    p(data-aos="fade-up") Prion de la encefalopatía espongiforme (“enfermedad de la vaca loca”).
+    h5.mt-5(data-aos="fade-left") Priones
+    p(data-aos="fade-right") Prion de la encefalopatía espongiforme (“enfermedad de la vaca loca”).
 
     .col-xl-8.m-auto.mt-4.col-lg-10
       figure
         img(src="@/assets/curso/tema4/19.png" data-aos="zoom-in-up" alt="Imagen decorativa")
     
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_4_2 4.2  Flora humana
+    Separador
+    #t_4_2.titulo-segundo(data-aos="fade-right")
+      h2 4.2 Flora humana
     
-    p(data-aos="zoom-in") La piel y las mucosas del cuerpo humano representa una gran superficie de contacto con el medio ambiente; en ella residen microorganismos con características distintas de humedad, temperatura, pH y disponibilidad de nutrientes.
-    p.mt-4(data-aos="zoom-in") Los microorganismos que viven con el huésped en su estado normal, sin causarle enfermedad, es lo que se llama la flora humana; sin embargo, si aumentan en cantidad o llegan nuevas especies pueden dar origen a infecciones o enfermedades; es ahí donde representa un importante mecanismo de defensa del huésped. Contribuye al desarrollo de la respuesta inmunológica, además ayuda a evitar la colonización de la piel o las mucosas por bacterias que pueden ser patógenas.
+    p(data-aos="fade-right") La piel y las mucosas del cuerpo humano representa una gran superficie de contacto con el medio ambiente; en ella residen microorganismos con características distintas de humedad, temperatura, pH y disponibilidad de nutrientes.
+    p.mt-4(data-aos="fade-right") Los microorganismos que viven con el huésped en su estado normal, sin causarle enfermedad, es lo que se llama la flora humana; sin embargo, si aumentan en cantidad o llegan nuevas especies pueden dar origen a infecciones o enfermedades; es ahí donde representa un importante mecanismo de defensa del huésped. Contribuye al desarrollo de la respuesta inmunológica, además ayuda a evitar la colonización de la piel o las mucosas por bacterias que pueden ser patógenas.
     
-    .col-xl-7.col-lg-10.m-auto.mt-5
+    .col-xl-7.col-lg-10.m-auto.mt-5(data-aos="fade-right")
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
-        p.mb-0(data-aos="zoom-in") La flora normal son microorganismos (bacterias y levaduras) que colonizan las mucosas y la piel, sin embargo, en el cuerpo humano existen partes que son estériles en condiciones normales. 
+        p.mb-0 La flora normal son microorganismos (bacterias y levaduras) que colonizan las mucosas y la piel, sin embargo, en el cuerpo humano existen partes que son estériles en condiciones normales. 
     
-    h5.mt-5(data-aos="fade-up") Flora basal o residente
-    p(data-aos="fade-up") Está constituida por gérmenes que siempre están presentes, sin mayor potencial de enfermar. Por ejemplo: Staphylococcus epidermidis en la piel o E. coli en el intestino.
+    h5.mt-5(data-aos="fade-left") Flora basal o residente
+    p(data-aos="fade-right") Está constituida por gérmenes que siempre están presentes, sin mayor potencial de enfermar. Por ejemplo: Staphylococcus epidermidis en la piel o E. coli en el intestino.
 
     .col-xl-10.m-auto.mt-5
       .row
@@ -261,23 +262,23 @@
 
     p.mt-5(data-aos="fade-up") Algunas generalidades de la flora humana son: 
 
-    TabsC.color-acento-contenido.mt-4
+    TabsC.color-acento-contenido.mt-4(data-aos="fade-right")
       .py-3.py-md-4(titulo="Importancia de la flora normal")
-        .row.col-lg-11.m-auto
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center.px-2
+          .col-lg-7.order-lg-1.order-2
             ul.fa-ul.mb-0
               li.mb-3
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | #[strong Efectos directos:] #[br] Producción de bacteriocinas. #[br] Producción de metabolitos tóxicos. #[br] Reducción del potencial redox. #[br] Consumo de nutrientes esenciales. #[br] Competencia por receptores.
+                p.mb-0 #[strong Efectos directos:] #[br] Producción de bacteriocinas. #[br] Producción de metabolitos tóxicos. #[br] Reducción del potencial redox. #[br] Consumo de nutrientes esenciales. #[br] Competencia por receptores.
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | #[strong Efectos indirectos:] #[br] Aumento de la producción de anticuerpos. #[br] Estímulo de la fagocitosis. #[br] Aumento de la producción de interferón. #[br] De conjugación de ácidos biliares. 
-          .col-lg-5
+                p.mb-0 #[strong Efectos indirectos:] #[br] Aumento de la producción de anticuerpos. #[br] Estímulo de la fagocitosis. #[br] Aumento de la producción de interferón. #[br] De conjugación de ácidos biliares. 
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/22.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Sitios estériles y colonizados")
-        .row.col-lg-11.m-auto
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center.px-2
+          .col-lg-7.order-lg-1.order-2
             p.fw-bold Sitios colonizados:
             ul.fa-ul.mb-0
               li
@@ -318,81 +319,80 @@
               li
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Sistema circulatorio.
-          .col-lg-5
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/23.png' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="La flora transitoria")
-        .row.col-lg-11.m-auto
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center.px-2
+          .col-lg-7.order-lg-1.order-2
             p Varia de un ser humano a otro y está compuesta por microorganismos que colonizan en forma intermitente una determinada área, puede incluir bacterias potencialmente patógenas para el propio individuo u otras personas que entran en contacto con él.
-          .col-lg-5
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/24.svg' alt="Imagen decorativa")
       .py-3.py-md-4(titulo="Equilibrio normal entre la flora <br> residente y transitoria")
-        .row.col-lg-11.m-auto
-          .col-lg-7.mb-4.mb-lg-0
+        .row.justify-content-center.px-2
+          .col-lg-7.order-lg-1.order-2
             p Cuando se pierde el equilibrio normal entre la flora residente y la flora transitoria, haciendo que aumente en cantidad la transitoria, es donde se presentan algunos signos como diarrea, fiebre, vómito, etc., que indican un mecanismo de defensa del organismo, por lo tanto, no se debe tratar de eliminar de inmediato el signo si no buscar el origen o causa, para iniciar el tratamiento adecuado. El abuso indiscriminado de los antibióticos hace que esa flora basal, reducida o débil, cree resistencia a los tratamientos. La bacteria resistente continúa creciendo y multiplicándose, haciendo a las infecciones más difíciles de tratar.
-          .col-lg-5
+          .col-lg-5.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/25.svg' alt="Imagen decorativa")
     
-    p.mt-5(data-aos="zoom-in") A continuación, se describe la flora normal en distintas partes del cuerpo humano.
+    p.mt-5(data-aos="fade-right") A continuación, se describe la flora normal en distintas partes del cuerpo humano.
 
-    .titulo-sexto.color-acento-contenido.mt-5
-      h5.d-block Tabla 3
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-right")
+      h5 Tabla 3.
       span Flora normal del cuerpo humano
 
     .mt-4
       .tabla-a.color-acento-contenido(data-aos="zoom-in-up")
         table
           tbody
-            tr(style="background-color:#F6F6F6;")
+            tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Cavidad oral
               td.p-4(style="border:0;") La flora oral es de tipo mixto, gérmenes aerobios y anaerobios. Las bacterias que se adhieren a la superficie dental, al aumentar por falta de higiene, producen enfermedades como caries y periodontitis.
-            tr(style="background-color:#FFF;")
+            tr(style="background-color:#FFF;" data-aos="fade-right")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Refrigeración
               td.p-4(style="border:0;") El tubo digestivo alberga muchas bacterias responsables de la síntesis de Vit K y Vit del complejo B. Además, compite con los microorganismos patógenos por nutrientes y receptores y elabora bacteriocinas.
-            tr(style="background-color:#F6F6F6;")
+            tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Vaginal
               td.p-4(style="border:0;") 
                 p Depende de la cantidad de estrógenos, ya que estos determinan el número de células epiteliales, aumentando el glucógeno y disminuyendo el pH. La acidez inhibe las bacterias. Funciones: protege de la infección vaginal, en especial durante el embarazo.
                 ul.fa-ul.mb-0
                   li.mb-1
                     i.fas.fa-atom.fa-li(style="color:#FF9D00;")
-                    | Pubertad: dominan las enterobacterias y algunos bacilos Gram negativos anaerobios.
+                    p.mb-0 #[b Pubertad:] dominan las enterobacterias y algunos bacilos Gram negativos anaerobios.
                   li.mb-1
                     i.fas.fa-atom.fa-li(style="color:#FF9D00;")
-                    | Edad genital activa: predominan los Lactobacillus.
+                    p.mb-0 #[b Edad genital activa:] predominan los Lactobacillus.
                   li.mb-1
                     i.fas.fa-atom.fa-li(style="color:#FF9D00;")
-                    | Gestación: aumentan lactobacillus y levaduras que en ocasiones pueden causar síntomas.
+                    p.mb-0 #[b Gestación:] aumentan lactobacillus y levaduras que en ocasiones pueden causar síntomas.
                   li.mb-1
                     i.fas.fa-atom.fa-li(style="color:#FF9D00;")
-                    | Postmenopausia: al final del estímulo hormonal, la flora retorna al patrón de la infancia.
-            tr(style="background-color:#FFF;")
+                    p.mb-0 #[b Postmenopausia:] al final del estímulo hormonal, la flora retorna al patrón de la infancia.
+            tr(style="background-color:#FFF;" data-aos="fade-right")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Aparato respiratorio
               td.p-4(style="border:0;") El aparato respiratorio está dividido en dos: alto y bajo. En el sujeto normal solamente el árbol respiratorio alto (fosas nasales y faringe) presenta flora normal: los senos paranasales, oído medio, tráquea, bronquios pulmonares y pleura son estériles.
-            tr(style="background-color:#F6F6F6;")
+            tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               td.p-4.fw-bold.text-center(style="border:0;border-right:1px #AFAFAF solid;width: 30%" ) Aparato urinario
               td.p-4(style="border:0;") Salvo la uretra anterior, el aparato urinario es estéril. La orina contribuye a mantener la vía urinaria libre de gérmenes, debido al arrastre, al pH ácido y a su elevada osmolaridad. 
     
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_4_3 4.3  Cadena de transmisión
+    Separador
+    #t_4_3.titulo-segundo(data-aos="fade-right")
+      h2 4.3 Cadena de transmisión
     
-    p(data-aos="zoom-in") La ruta o serie de eslabones del agente infeccioso desde la fuente y los elementos que se articulan en la transmisión del germen hasta ocasionar una infección en el huésped vulnerable, es lo que se llama cadena de transmisión o epidemiológica.
+    p(data-aos="fade-right") La ruta o serie de eslabones del agente infeccioso desde la fuente y los elementos que se articulan en la transmisión del germen hasta ocasionar una infección en el huésped vulnerable, es lo que se llama cadena de transmisión o epidemiológica.
 
     .col-xl-7.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
         p.mb-0(data-aos="zoom-in") Una infección es un estado de enfermedad resultante de la invasión y el crecimiento de microbios en el cuerpo. El equipo de salud debe seguir ciertos prácticos que previenen la propagación de la infección. El objetivo es proteger de las infecciones a pacientes, visitantes y al propio personal.
     
-    p.mt-5(data-aos="zoom-in") Los actores que participan en la cadena de transmisión son:
+    p.mt-5(data-aos="fade-right") Los actores que participan en la cadena de transmisión son:
 
-    ImagenInfografica.color-acento-botones.mt-5
+    ImagenInfografica.color-acento-botones.mt-5(data-aos="zoom-in")
       template(v-slot:imagen)
         figure
-          img(src='@/assets/curso/tema4/26.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
+          img(src='@/assets/curso/tema4/26.svg' alt="Imagen decorativa")
       .tarjeta.color-acento-botones.bg-white.p-3(x="5%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
         p.mb-0(style="color:inherit;") Microorganismo (virus, bacteria, hongo, rickettsia, protozoario o parásitos) que invaden el cuerpo de un ser vivo ocasionando daños en sus tejidos (síntomas). Germen capaz de producir una infección o enfermedad infecciosa. 
         p.mt-3(style="color:inherit;") Propiedades: transmisibilidad, patogenicidad e inmunogenicidad.  
@@ -446,17 +446,17 @@
       .tarjeta.color-acento-botones.bg-white.p-3(x="97%" y="73.5%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
         p.mb-0(style="color:inherit;") Los animales pueden ser infectados y a la vez servir como reservorio para varias enfermedades del ser humano. Son ejemplos de ello la brucelosis, la leptospirosis, la peste, la psitacosis, la rabia y el tétanos.
     
-    p.mt-5(data-aos="zoom-in") Y los métodos de transmisión son:
+    p.mt-5(data-aos="fade-right") Y los métodos de transmisión son:
 
-    .titulo-sexto.color-acento-contenido.mt-5
-      h5.d-block Figura 2
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-right")
+      h5 Figura 2.
       span Métodos de transmisión de microbios
     
-    .col-xl-7.m-auto.mt-5
+    .col-xl-7.m-auto.mt-5(data-aos="zoom-in")
       ImagenInfografica.infografia3.color-secundario
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema4/27.svg' data-aos="zoom-in-up" alt="Figura que muestra los métodos de transmisión de microbios, los cuales son: 1. Sangre, fluidos corporales, secreciones y excreciones. 2. Animales. 3. Insectos. 4. Vendajes. 5. Contacto directo. 6. Artículos de cuidado personal. 7. Utensilios para beber y comer. 8. Agua. 9. Alimentos. 10. Aire. 11. Toser, estornudar, reírse y cantar.")
+            img(src='@/assets/curso/tema4/27.svg' alt="Figura que muestra los métodos de transmisión de microbios, los cuales son: 1. Sangre, fluidos corporales, secreciones y excreciones. 2. Animales. 3. Insectos. 4. Vendajes. 5. Contacto directo. 6. Artículos de cuidado personal. 7. Utensilios para beber y comer. 8. Agua. 9. Alimentos. 10. Aire. 11. Toser, estornudar, reírse y cantar.")
         .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="5%" numero="1" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Sangre, fluidos corporales, secreciones y excreciones.
         .tarjeta.color-acento-botones.bg-white.p-3(x="84%" y="15%" numero="2" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -480,14 +480,13 @@
         .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="13%" numero="11" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;")  Toser, estornudar, reírse y cantar.
     
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_4_4 4.4  Bioseguridad
+    Separador
+    #t_4_4.titulo-segundo(data-aos="fade-right")
+      h2 4.4 Bioseguridad
     
-    p(data-aos="zoom-in") Es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se realizan como medidas preventivas, con el fin de mantener el control de factores de riesgo laborales originarios de agentes biológicos, físicos o químicos, al realizar procedimientos que pueden afectar la salud y la seguridad de los trabajadores de la salud, pacientes, cuidadores, visitantes y del medio ambiente. 
-    p.mt-4(data-aos="zoom-in") Se debe evitar el contacto y/o exposición de la piel (intacta o lesionada) o mucosas, con los fluidos corporales, teniendo como premisa que todos los pacientes son considerados potencialmente infecciosos, sin importar el diagnóstico o la afinidad con el individuo. Por lo anterior, se debe fomentar el uso correcto de los elementos de protección personal (E.P.P), el lavado de manos antes y después del contacto con áreas, equipos, pacientes, talento humano en salud, cuidadores o familiares, higienización o desinfección de manos.
-    p.mt-4(data-aos="zoom-in") Los fluidos del cuerpo son:
+    p(data-aos="fade-right") Es el conjunto de principios, normas, protocolos, tecnologías y prácticas que se realizan como medidas preventivas, con el fin de mantener el control de factores de riesgo laborales originarios de agentes biológicos, físicos o químicos, al realizar procedimientos que pueden afectar la salud y la seguridad de los trabajadores de la salud, pacientes, cuidadores, visitantes y del medio ambiente. 
+    p.mt-4(data-aos="fade-right") Se debe evitar el contacto y/o exposición de la piel (intacta o lesionada) o mucosas, con los fluidos corporales, teniendo como premisa que todos los pacientes son considerados potencialmente infecciosos, sin importar el diagnóstico o la afinidad con el individuo. Por lo anterior, se debe fomentar el uso correcto de los elementos de protección personal (E.P.P), el lavado de manos antes y después del contacto con áreas, equipos, pacientes, talento humano en salud, cuidadores o familiares, higienización o desinfección de manos.
+    p.mt-4(data-aos="fade-right") Los fluidos del cuerpo son:
 
     ul.fa-ul.mt-4.mb-0
       li.mb-2(data-aos="fade-right")
@@ -524,12 +523,12 @@
         i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
         | Cualquier otro líquido contaminado con sangre.
 
-    p.mt-5(data-aos="zoom-in") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
-    p.mt-4(data-aos="zoom-in") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
+    p.mt-5(data-aos="fade-right") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="fade-right") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
 
-    .tarjeta.tarjeta--azul.p-4.pt-0.p-md-5.mt-4(style="padding-top:0px !important;")
+    .tarjeta.tarjeta--azul.p-4.pt-0.p-md-5.mt-4(style="padding-top:0px !important;" data-aos="zoom-in")
       SlyderA(tipo="b")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Higiene de manos
@@ -541,7 +540,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/29.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Gorro quirúrgico
@@ -553,7 +552,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Respirador N95
@@ -565,7 +564,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Mascarilla quirúrgica
@@ -577,7 +576,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/29.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Monogafas
@@ -589,7 +588,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Careta
@@ -601,7 +600,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Vestido quirúrgico
@@ -613,7 +612,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Bata antifluido
@@ -625,7 +624,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Guantes quirúrgicos
@@ -637,7 +636,7 @@
             h4.text-center Farmacéutico
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
-        .row
+        .row.justify-content-center
           .col-12.mb-5
             .p-3.text-center.m-auto(style="max-width:400px;background-color:#8CBCFA;border-radius:0px 0px 15px 15px;")
               h3.mb-0 Polainas
@@ -650,15 +649,15 @@
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
     
-    p.mt-5(data-aos="fade-up") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
-    p.mt-4(data-aos="fade-up") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
+    p.mt-5(data-aos="fade-right") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
+    p.mt-4(data-aos="fade-right") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
 
-    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;" data-aos="zoom-in")
       .col-xl-9.m-auto
         ImagenInfografica.infografia4.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema4/40.svg' data-aos="zoom-in-up" alt="Imagen que contiene 11 pasos sobre cómo lavarse las manos, los cuales son: 0. Mójese las manos. 1. Apliques suficiente jabón para cubrir todas las superficies de las manos. 2. Frótese de las palmas de las manos entre sí. 3. Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa. 4. Frótese las palmas de las manos entre sí, con los dedos entrelazados. 5. Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos. 6. Rodeando el pulgar izquierdo con la palma de la mano derecha, frótese con un movimiento de rotación, y viceversa. 7. Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa. 8. Enjuáguese las manos. 9. Séqueselas con una toalla de un solo uso. 10. Utilice la toalla para cerrar el grifo. 11. Sus manos son seguras.")
+              img(src='@/assets/curso/tema4/40.svg'  alt="Imagen que contiene 11 pasos sobre cómo lavarse las manos, los cuales son: 0. Mójese las manos. 1. Apliques suficiente jabón para cubrir todas las superficies de las manos. 2. Frótese de las palmas de las manos entre sí. 3. Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa. 4. Frótese las palmas de las manos entre sí, con los dedos entrelazados. 5. Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos. 6. Rodeando el pulgar izquierdo con la palma de la mano derecha, frótese con un movimiento de rotación, y viceversa. 7. Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa. 8. Enjuáguese las manos. 9. Séqueselas con una toalla de un solo uso. 10. Utilice la toalla para cerrar el grifo. 11. Sus manos son seguras.")
           .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Mójese las manos.
           .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -683,12 +682,12 @@
             p.mb-0(style="color:inherit;") Utilice la toalla para cerrar el grifo.
           .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="92%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Sus manos son seguras.
-    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+    .p-3(style="background-color:#547196;" data-aos="fade-left")
       h5.text-white.mb-0 ¿Cómo lavarse las manos?
-    p.mt-4(data-aos="zoom-in") ¡LÁVESE LAS MANOS SI ESTÁN VISIBLEMENTE SUCIAS! #[br] De lo contrario, use un poco de desinfectante de manos #[br] Duración del lavado entre 40 y 60 segundos
-    p(data-aos="zoom-in") Fuente: Organización Mundial de la Salud
+    p.mt-4(data-aos="fade-right") ¡LÁVESE LAS MANOS SI ESTÁN VISIBLEMENTE SUCIAS! #[br] De lo contrario, use un poco de desinfectante de manos #[br] Duración del lavado entre 40 y 60 segundos
+    p(data-aos="fade-right") Fuente: Organización Mundial de la Salud
 
-    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;" data-aos="zoom-in")
       .col-xl-9.m-auto
         ImagenInfografica.infografia4.color-acento-botones
           template(v-slot:imagen)
@@ -711,17 +710,17 @@
           .tarjeta.color-acento-botones.bg-white.p-3(x="73%" y="84%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Sus manos son seguras.
     
-    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+    .p-3(style="background-color:#547196;" data-aos="fade-left")
       h5.text-white.mb-0  ¿Cómo desinfectarse las manos?
-    p.mt-4(data-aos="zoom-in") ¡Desinfectes las manos por higiene! Lávese las manos solo cuando estén visiblemente sucias. #[br] Duración de todo el procedimiento:  20 y 30 segundos.
-    p(data-aos="zoom-in") Fuente: Organización Mundial de la Salud
+    p.mt-4(data-aos="fade-right") ¡Desinfectes las manos por higiene! Lávese las manos solo cuando estén visiblemente sucias. #[br] Duración de todo el procedimiento:  20 y 30 segundos.
+    p(data-aos="fade-right") Fuente: Organización Mundial de la Salud
 
-    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;" data-aos="zoom-in")
       .col-xl-9.m-auto
         ImagenInfografica.infografia4.color-acento-contenido
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema4/42.svg' data-aos="zoom-in-up" alt="Imagen que contiene 5 momentos para la higiene de las manos, los cuales son: 1. Antes de tocar al paciente ¿Cuándo? Lávese las manos antes de tocar al paciente cuando se acerque a él ¿Por qué? Para proteger al paciente de los gérmenes dañinos que tiene usted en las manos. 2. Antes de realizar una tarea limpia aséptica ¿Cuándo? Lávese las manos inmediatamente antes de realizar una limpia/aséptica ¿Por qué? Para proteger al paciente de los gérmenes dañinos que podrían entrar en su cuerpo incluidos los gérmenes del propio paciente. 3. Después del riesgo de exposición a líquidos corporales ¿Cuándo? Lávese las manos inmediatamente después de un riesgo de exposición a líquidos corporales (y tras quitarse los guantes) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente. 4. Después de tocar al paciente ¿Cuándo? Lávese las manos después de tocar a un paciente y la zona que lo rodea cuando deje la cabecera del paciente ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente. 5. Después del contacto con el entorno del paciente ¿Cuándo? Lávese las manos después de tocar cualquier objeto o mueble del entorno inmediato del paciente, cuando lo deje (incluso aunque no haya tocado al paciente) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.")
+              img(src='@/assets/curso/tema4/42.svg' alt="Imagen que contiene 5 momentos para la higiene de las manos, los cuales son: 1. Antes de tocar al paciente ¿Cuándo? Lávese las manos antes de tocar al paciente cuando se acerque a él ¿Por qué? Para proteger al paciente de los gérmenes dañinos que tiene usted en las manos. 2. Antes de realizar una tarea limpia aséptica ¿Cuándo? Lávese las manos inmediatamente antes de realizar una limpia/aséptica ¿Por qué? Para proteger al paciente de los gérmenes dañinos que podrían entrar en su cuerpo incluidos los gérmenes del propio paciente. 3. Después del riesgo de exposición a líquidos corporales ¿Cuándo? Lávese las manos inmediatamente después de un riesgo de exposición a líquidos corporales (y tras quitarse los guantes) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente. 4. Después de tocar al paciente ¿Cuándo? Lávese las manos después de tocar a un paciente y la zona que lo rodea cuando deje la cabecera del paciente ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente. 5. Después del contacto con el entorno del paciente ¿Cuándo? Lávese las manos después de tocar cualquier objeto o mueble del entorno inmediato del paciente, cuando lo deje (incluso aunque no haya tocado al paciente) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.")
           .tarjeta.color-acento-botones.bg-white.p-3(x="20%" y="36%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Antes de tocar al paciente ¿Cuándo? Lávese las manos antes de tocar al paciente cuando se acerque a él ¿Por qué? Para proteger al paciente de los gérmenes dañinos que tiene usted en las manos.
           .tarjeta.color-acento-botones.bg-white.p-3(x="38.5%" y="26%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -733,16 +732,16 @@
           .tarjeta.color-acento-botones.bg-white.p-3(x="98%" y="85%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Después del contacto con el entorno del paciente ¿Cuándo? Lávese las manos después de tocar cualquier objeto o mueble del entorno inmediato del paciente, cuando lo deje (incluso aunque no haya tocado al paciente) ¿Por qué? Para protegerse y proteger el entorno de atención de salud de los gérmenes dañinos del paciente.
     
-    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+    .p-3(style="background-color:#547196;" data-aos="fade-left")
       h5.text-white.mb-0 5 momentos para la higiene de las manos
-    p.mt-3(data-aos="zoom-in") Fuente: Organización Panamericana de la Salud
+    p.mt-3(data-aos="fade-right") #[b Fuente:] Organización Panamericana de la Salud
 
-    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;")
+    .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;" data-aos="zoom-in")
       .col-xl-8.m-auto
         ImagenInfografica.infografia4.color-acento-contenido
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema4/43.svg' data-aos="zoom-in-up" alt="Imagen que contiene 4 pasos para la postura del tapabocas, los cuales son: 1. Lávate las manos con agua y jabón antes de ponerse el tapabocas. 2. Revisa que el tapabocas se encuentre en buen estado, asegúrate que no tenga defectos, agujeros ni desgarros. 3 Revisa que el tapaboca se encuentre del lado correcto. El interior de la mayoría de los tapabocas es de color blanco mientras que el exterior es de otros colores. 4. Si el tapaboca tiene borde flexible en uno de sus lados este debe ir en la parte superior, moldea la banda sobre el puente de la nariz.")
+              img(src='@/assets/curso/tema4/43.svg' alt="Imagen que contiene 4 pasos para la postura del tapabocas, los cuales son: 1. Lávate las manos con agua y jabón antes de ponerse el tapabocas. 2. Revisa que el tapabocas se encuentre en buen estado, asegúrate que no tenga defectos, agujeros ni desgarros. 3 Revisa que el tapaboca se encuentre del lado correcto. El interior de la mayoría de los tapabocas es de color blanco mientras que el exterior es de otros colores. 4. Si el tapaboca tiene borde flexible en uno de sus lados este debe ir en la parte superior, moldea la banda sobre el puente de la nariz.")
           .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="9%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Lávate las manos con agua y jabón antes de ponerse el tapabocas.
           .tarjeta.color-acento-botones.bg-white.p-3(x="60%" y="9%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -751,13 +750,13 @@
             p.mb-0(style="color:inherit;") Revisa que el tapaboca se encuentre del lado correcto. El interior de la mayoría de los tapabocas es de color blanco mientras que el exterior es de otros colores.
           .tarjeta.color-acento-botones.bg-white.p-3(x="60%" y="63%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Si el tapaboca tiene borde flexible en uno de sus lados este debe ir en la parte superior, moldea la banda sobre el puente de la nariz.
-    .p-3(style="background-color:#547196;" data-aos="zoom-in")
+    .p-3(style="background-color:#547196;" data-aos="fade-left")
       h5.text-white.mb-0  Postura del tapabocas
-    p.mt-4(data-aos="zoom-in") Ten en cuenta estos pasos
-    p.mt-3(data-aos="zoom-in")  Se invita al aprendiz a ver el vídeo de Recomendaciones al momento de usar el tapabocas ubicado en el material complementario
-    p.mt-3(data-aos="zoom-in") Universidad Piloto de Colombia. (2020, May 27)
+    p.mt-4(data-aos="fade-right") Ten en cuenta estos pasos
+    p.mt-3(data-aos="fade-right")  Se invita al aprendiz a ver el vídeo de Recomendaciones al momento de usar el tapabocas ubicado en el material complementario
+    p.mt-3(data-aos="fade-right") Universidad Piloto de Colombia. (2020, May 27)
 
-    h5.mt-5(data-aos="fade-up") Bioseguridad y seguridad del paciente
+    h5.mt-5(data-aos="fade-left") Bioseguridad y seguridad del paciente
 
     ul.fa-ul.mt-4.mb-0
       li.mb-2(data-aos="fade-right")
@@ -776,15 +775,14 @@
         i.fas.fa-circle.fa-li(style="font-size:6px;")
         | Mantiene la técnica aséptica: Desinfecta los equipos que entran en contacto con la piel del paciente o del profesional.
 
-
-    h5.mt-5(data-aos="fade-up") Guantes desechables
+    h5.mt-5(data-aos="fade-left") Guantes desechables
 
     .col-xl-10.m-auto.mt-5
-      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5(data-aos="zoom-in-up")
+      .bloque-texto-g.color-primario.p-3.p-sm-4.p-md-5
         .bloque-texto-g__img(
-          :style="{'background-image': `url(${require('@/assets/curso/tema4/44.png')})`}"
+          :style="{'background-image': `url(${require('@/assets/curso/tema4/44.png')})`}" data-aos="fade-right"
         )
-        .bloque-texto-g__texto.p-4
+        .bloque-texto-g__texto.p-4(data-aos="fade-left")
           p.mb-0  Los guantes desechables, de látex o nitrilo, son para un solo uso, para evitar cualquier tipo de contaminación cruzada. Primero que todo, debe seleccionar la talla que corresponde a la mano. Es conveniente que el guante quede ajustado para evitar arrugas y aumentar la sensibilidad y el tacto.
           br
           br
@@ -793,10 +791,10 @@
           | A continuación, se muestra cómo debe ser la postura y el retiro de los guantes desechables.
     
     .col-xl-9.m-auto.mt-5
-      ImagenInfografica.infografia4.color-acento-botones
+      ImagenInfografica.infografia4.color-acento-botones(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema4/45.svg' data-aos="zoom-in-up" alt="Imagen que contiene 6 pasos para la colocación de los guantes sanitarios, los cuales son: 1. Extraer un guante de la caja. 2. Identifique el dedo pulgar y enfundarlo en una mano. 3. Hasta obtener una perfecta adaptación a la mano (ausencia de arrugas) estirando desde el extremo abierto. 4. Extraer un segundo guante. 5. Realizar el mismo procedimiento. 6. Guantes listos para el uso.")
+            img(src='@/assets/curso/tema4/45.svg' alt="Imagen que contiene 6 pasos para la colocación de los guantes sanitarios, los cuales son: 1. Extraer un guante de la caja. 2. Identifique el dedo pulgar y enfundarlo en una mano. 3. Hasta obtener una perfecta adaptación a la mano (ausencia de arrugas) estirando desde el extremo abierto. 4. Extraer un segundo guante. 5. Realizar el mismo procedimiento. 6. Guantes listos para el uso.")
         .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Extraer un guante de la caja.
         .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -815,10 +813,10 @@
       p.mb-0 (Evite el contacto de los guantes con superficies o con el paciente, durante la postura.)
     
     .col-xl-9.m-auto.mt-5
-      ImagenInfografica.infografia4.color-acento-botones
+      ImagenInfografica.infografia4.color-acento-botones(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema4/46.svg' data-aos="zoom-in-up" alt="Imagen que contiene 6 pasos para la retirada de los guantes sanitarios, los cuales son: 1. Pellizcar por el exterior del primer guante. 2. Retirar sin tocar la parte inferior del guante. 3. Retirar el guante en su totalidad. 4. Recoger el primer guante con la otra mano. 5. Retirar el segundo guante introduciendo los dedos por el interior. 6. Guantes listos para el uso.")
+            img(src='@/assets/curso/tema4/46.svg' alt="Imagen que contiene 6 pasos para la retirada de los guantes sanitarios, los cuales son: 1. Pellizcar por el exterior del primer guante. 2. Retirar sin tocar la parte inferior del guante. 3. Retirar el guante en su totalidad. 4. Recoger el primer guante con la otra mano. 5. Retirar el segundo guante introduciendo los dedos por el interior. 6. Guantes listos para el uso.")
         .tarjeta.color-acento-botones.bg-white.p-3(x="9%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Pellizcar por el exterior del primer guante.
         .tarjeta.color-acento-botones.bg-white.p-3(x="42%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -835,18 +833,17 @@
     .p-3(style="background-color:#E8E8E8;" data-aos="zoom-in-up")
       h5.mb-0 Retiro de guantes
 
-    Separador.mt-5
-
-    .titulo-segundo
-      h2#t_4_5 4.5  Técnica aséptica
+    Separador
+    #t_4_5.titulo-segundo(data-aos="fade-right")
+      h2 4.5 Técnica aséptica
     
-    p(data-aos="fade-up") Es la técnica que se utiliza para eliminar la presencia de microorganismos patógenos en un área u objeto determinado, siendo los siguientes, los términos importantes para entender la técnica:
+    p(data-aos="fade-right") Es la técnica que se utiliza para eliminar la presencia de microorganismos patógenos en un área u objeto determinado, siendo los siguientes, los términos importantes para entender la técnica:
 
     .col-xl-11.m-auto.mt-5
-      ImagenInfografica.infografia5.color-acento-contenido
+      ImagenInfografica.infografia5.color-acento-contenido(data-aos="zoom-in")
         template(v-slot:imagen)
           figure
-            img(src='@/assets/curso/tema4/47.svg' data-aos="zoom-in-up" alt="Imagen decorativa")
+            img(src='@/assets/curso/tema4/47.svg' alt="Imagen decorativa")
         .tarjeta.color-acento-botones.bg-white.p-3(x="12%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Libre de microorganismos.
         .tarjeta.color-acento-botones.bg-white.p-3(x="37%" y="20%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -876,8 +873,8 @@
         .tarjeta.color-acento-botones.bg-white.p-3(x="63%" y="98%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
           p.mb-0(style="color:inherit;") Son detergentes que contienen enzimas proteolíticas que disuelven la materia orgánica y están especialmente diseñados para el lavado de instrumental y equipo médico.
     
-    h5.mt-5(data-aos="zoom-in") Compuestos utilizados en limpieza, desinfección y antisepsia
-    p.mt-4(data-aos="zoom-in") En el entorno hospitalario y donde se atiende pacientes, como consultorios, droguerías, farmacias, la desinfección se realiza utilizando diferentes agentes químicos; la desinfección se clasifica de acuerdo con el nivel o al espectro de actividad del agente:
+    h5.mt-5(data-aos="fade-left") Compuestos utilizados en limpieza, desinfección y antisepsia
+    p.mt-4(data-aos="fade-right") En el entorno hospitalario y donde se atiende pacientes, como consultorios, droguerías, farmacias, la desinfección se realiza utilizando diferentes agentes químicos; la desinfección se clasifica de acuerdo con el nivel o al espectro de actividad del agente:
 
     br
     .row.mt-5
@@ -902,28 +899,28 @@
     
     p.mt-5(data-aos="fade-up") En la siguiente tabla se describen los niveles de desinfección:
     
-    .titulo-sexto.color-acento-contenido.mt-5
-      h5.d-block Tabla 4
+    .titulo-sexto.color-acento-contenido.mt-5(data-aos="fade-right")
+      h5 Tabla 4.
       span Nivel de desinfección de acuerdo con el tipo de microorganismos
 
     .mt-4
       .tabla-a.color-acento-contenido(data-aos="zoom-in-up")
         table
           thead
-            tr(style="background-color:#F6F6F6;")
+            tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Nivel
               th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Desinfectantes
               th.p-2.text-center(style="border-color:#E1E1E1;" colspan="3") Bacterias
               th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Hongos
               th.p-2.text-center(style="border-color:#E1E1E1;" colspan="2") Virus
-            tr(style="background-color:#F6F6F6;")
+            tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               th.p-2.text-center(style="border-color:#E1E1E1;") Vegetativas
               th.p-2.text-center(style="border-color:#E1E1E1;") Bacilos #[br] tuberculosos
               th.p-2.text-center(style="border-color:#E1E1E1;") Esporas
               th.p-2.text-center(style="border-color:#E1E1E1;") Lípido y #[br] tamaño medio
               th.p-2.text-center(style="border-color:#E1E1E1;") Lípido y #[br] tamaño pequeño
           tbody
-            tr
+            tr(data-aos="fade-right")
               td.p-3.fw-bold(style="border-color:#E1E1E1;") Alto
               td.p-3(style="border-color:#E1E1E1;") Glutaraldehído amonio cuaternario de quinta generación, formaldehído, ácido peracético al 1%, peróxido de hidrógeno al 6%, ortoftalaldehído al 0 55%, ácido peracético con peróxido de hidrógeno.
               td.p-3.text-center(style="border-color:#E1E1E1;") +
@@ -932,7 +929,7 @@
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
-            tr
+            tr(data-aos="fade-right")
               td.p-3.fw-bold(style="border-color:#E1E1E1;") Intermedio
               td.p-3(style="border-color:#E1E1E1;") Alcoholes, cloro y compuestos clorados, amonio cuaternario de tercera y cuarta generación.
               td.p-3.text-center(style="border-color:#E1E1E1;") +
@@ -941,7 +938,7 @@
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
-            tr
+            tr(data-aos="fade-right")
               td.p-3.fw-bold(style="border-color:#E1E1E1;") Bajo
               td.p-3(style="border-color:#E1E1E1;") Amonio cuaternario de primera y segunda generación.
               td.p-3.text-center(style="border-color:#E1E1E1;") +
@@ -951,9 +948,9 @@
               td.p-3.text-center(style="border-color:#E1E1E1;") -
               td.p-3.text-center(style="border-color:#E1E1E1;") -/+
     
-    p.mt-5(data-aos="fade-up") El protocolo de limpieza de limpieza y desinfección de las superficies y áreas, está dictado por el siguiente procedimiento: 
+    p.mt-5(data-aos="fade-right") El protocolo de limpieza de limpieza y desinfección de las superficies y áreas, está dictado por el siguiente procedimiento: 
 
-    .tarjeta.tarjeta--gris.p-4.mt-5
+    .tarjeta.tarjeta--gris.p-4.mt-5(data-aos="zoom-in")
       PasosB.color-secundario
         .row.col-lg-11.m-auto(titulo="Cronograma")
           .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
@@ -1021,15 +1018,6 @@
               img(src='@/assets/curso/tema4/58.svg' alt="Imagen decorativa")
           .col-md-6.col-lg-8(style="place-self:center;")
             p Lavar, desinfectar y secar el contenedor utilizado para preparar la solución de limpieza con detergente líquido, enjuagar con agua y desinfectar con el desinfectante de nivel intermedio/bajo en uso para minimizar el grado de contaminación bacteriana.
-
-
-
-
-
-
-
- 
-
       
 </template>
 
@@ -1054,17 +1042,17 @@ export default {
 .tabs-c__tab--active span
   font-weight: bold
 .infografia3 .img-infografica__item__dot
-  padding: 1.5rem
-  left: -14px
+  padding: 1.2rem
+  left: -10px
 .infografia3.img-infografica.color-secundario .img-infografica__item__numero, .img-infografica-b.color-secundario .img-infografica__item__numero
   color: #fff
   font-weight: bold
   font-size: 23px
 .infografia4 .img-infografica__item__dot
-  padding: 1.3rem
+  padding: 1.2rem
   left: -10px
 .infografia5 .img-infografica__item__dot
-  padding: 1.5rem
+  padding: 1.2rem
   left: -10px
 .infografia5.img-infografica.color-acento-contenido .img-infografica__item__dot:before, .img-infografica.color-acento-contenido .img-infografica__item__dot:after, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica.color-acento-contenido .img-infografica-b__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica__item__dot:after, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:before, .img-infografica-b.color-acento-contenido .img-infografica-b__item__dot:after
   background-color: #000000 !important

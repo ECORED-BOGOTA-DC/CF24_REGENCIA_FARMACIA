@@ -1,8 +1,8 @@
-# **sena-base-2021 v6.2.1**
+# **Administración de medicamentos vía IM en servicios farmacéuticos**
 
 ## **Enlace GitHubPages**
 
-[https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/](https://ecored-sena.github.io/ECORED_TEMPLATE_REPO/)
+[https://github.com/ECORED-BOGOTA-DC/CF24_REGENCIA_FARMACIA](https://github.com/ECORED-BOGOTA-DC/CF24_REGENCIA_FARMACIA)
 
 #
 
