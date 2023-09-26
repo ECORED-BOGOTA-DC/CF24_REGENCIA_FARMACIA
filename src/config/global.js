@@ -356,7 +356,7 @@ export default {
         },
         {
           nombre: 'Gloria Amparo López Escudero',
-          cargo: 'Adecuación instruccional',
+          cargo: 'Adecuación instruccional - 2023',
           centro:
             'Centro de Gestión de Mercados, Logística y Tecnologías de la Información - Regional Distrito Capital',
         },
