@@ -15,7 +15,7 @@
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 1
-        | Verifica medicamento, vía y dosis; fecha de elaboración de la formula, registro médico del profesional con base en la prescripción médica entregada por el paciente.
+        | Verifica medicamento, vía y dosis; fecha de elaboración de la fórmula, registro médico del profesional con base en la prescripción médica entregada por el paciente.
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 2
@@ -107,7 +107,7 @@
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 6
-        | Realizan antisepsia cutánea, del centro a la periferia, abarcando un diámetro de aprox. 5 cm: Utiliza alcohol al 70%, o Clorhexidina al 2%. (3 veces)
+        | Realizan antisepsia cutánea, del centro a la periferia, abarcando un diámetro de aprox. 5 cm: Utiliza alcohol al 70 %, o Clorhexidina al 2 %. (3 veces)
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 7

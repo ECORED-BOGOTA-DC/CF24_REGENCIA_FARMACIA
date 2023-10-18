@@ -50,31 +50,29 @@
                 figure
                   img(src='@/assets/curso/tema1/5.svg' alt="Imagen decorativa")
               .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="21%" numero="+")
-                p.mb-0(style="color:inherit;") Área especial e independiente. Que brinde privacidad y comodidad al paciente. Iluminación y ventilación natural; temperatura de entre 15 y 25 grados centígrados.
+                p.mb-0(style="color:inherit;") Que brinde privacidad y comodidad al paciente. Iluminación y ventilación natural; temperatura de entre 15 y 25 grados centígrados.
               .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="21%" numero="+")
-                p.mb-0(style="color:inherit;") Disponer de un lavamanos. En el mismo sitio o muy cerca para realizar el respectivo lavado de manos antes y después del procedimiento.
+                p.mb-0(style="color:inherit;") En el mismo sitio o muy cerca para realizar el respectivo lavado de manos antes y después del procedimiento.
               .tarjeta.color-acento-botones.bg-white.p-3(x="62%" y="21%" numero="+")
-                p.mb-0(style="color:inherit;") Tener toallas desechables.  Para manos con dispensador de pared.
+                p.mb-0(style="color:inherit;") Para manos con dispensador de pared.
               .tarjeta.color-acento-botones.bg-white.p-3(x="86%" y="21%" numero="+")
-                p.mb-0(style="color:inherit;") Dispensador de jabón.  Líquido antibacterial.
+                p.mb-0(style="color:inherit;") Líquido antibacterial.
               .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="47%" numero="+")
-                p.mb-0(style="color:inherit;") Alcohol glicerinado / Gel antimaterial.  Para la higienización de las manos.
+                p.mb-0(style="color:inherit;") Para la higienización de las manos.
               .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="47%" numero="+")
-                p.mb-0(style="color:inherit;") Alcohol antiséptico 70°.  Con dispensador espray o isopañines para la asepsia de la piel.
-              .tarjeta.color-acento-botones.bg-white.p-3(x="62%" y="47%" numero="+")
-                p.mb-0(style="color:inherit;") Camilla, escalerilla y mesa auxiliar.
+                p.mb-0(style="color:inherit;") Con dispensador espray o isopañines para la asepsia de la piel.
               .tarjeta.color-acento-botones.bg-white.p-3(x="86%" y="47%" numero="+")
-                p.mb-0(style="color:inherit;") Dispositivos médicos con registro INVIMA.  Fechas de vencimiento vigentes y almacenados de acuerdo a la recomendación del fabricante, como: jeringas y agujas desechables, recipiente con torundas de algodón y cubetas.
+                p.mb-0(style="color:inherit;") Fechas de vencimiento vigentes y almacenados de acuerdo a la recomendación del fabricante, como: jeringas y agujas desechables, recipiente con torundas de algodón y cubetas.
               .tarjeta.color-acento-botones.bg-white.p-3(x="14%" y="72%" numero="+")
-                p.mb-0(style="color:inherit;") Elementos de protección personal.  guantes, tapabocas.
+                p.mb-0(style="color:inherit;") Guantes, tapabocas.
               .tarjeta.color-acento-botones.bg-white.p-3(x="38%" y="72%" numero="+")
-                p.mb-0(style="color:inherit;") Contenedor de paredes rígidas.  Para desecho de cortopunzantes.
+                p.mb-0(style="color:inherit;") Para desecho de cortopunzantes.
               .tarjeta.color-acento-botones.bg-white.p-3(x="62%" y="72%" numero="+")
-                p.mb-0(style="color:inherit;") Caneca y bolsa plástica roja. Para desechos biosanitarios.
+                p.mb-0(style="color:inherit;") Para desechos biosanitarios.
               .tarjeta.color-acento-botones.bg-white.p-3(x="86%" y="72%" numero="+")
-                p.mb-0(style="color:inherit;") Caneca y bolsa plástica color verde. Para desechos ordinarios.
+                p.mb-0(style="color:inherit;") Para desechos ordinarios.
               .tarjeta.color-acento-botones.bg-white.p-3(x="50%" y="95%" numero="+")
-                p.mb-0(style="color:inherit;") Caneca y bolsa color gris. Para plástico, papel y cartón limpio y seco.
+                p.mb-0(style="color:inherit;") Para plástico, papel y cartón limpio y seco.
 
           .col-lg-6
             p El establecimiento farmacéutico que ofrezca el servicio de inyectología debe estar habilitado por el ente territorial de salud correspondiente; igualmente debe llevar un registro de las visitas de inspección, vigilancia y control. Tanto el certificado de habilitación y los permisos de IVC deben estar en lugares visibles, donde los usuarios puedan corroborar la información que deseen.
@@ -89,7 +87,7 @@
             figure
               img(src='@/assets/curso/tema1/7.png' alt="Imagen decorativa")
           .col-lg-6
-            p La vigilancia y control sobre los procedimientos de inyectología corresponden a las entidades territoriales de salud que hayan autorizado a dichos establecimientos la práctica de estas actividades y la oferta del servicio a la comunidad circundante.
+            p Posterior a la administración del medicamento vía IM, se debe brindar educación sobre la adherencia al tratamiento, posibles efectos secundarios del medicamento, signos y síntomas por los cuales debe consultar al médico tratante y la disposición o desecho de los medicamentos vencidos o parcialmente utilizados, de acuerdo con la normativa vigente; todo esto como parte de la responsabilidad social y legal vigente.
         .row(titulo="Vigilancia y control")
           .col-lg-6.col-10.mb-lg-0.mb-4
             figure

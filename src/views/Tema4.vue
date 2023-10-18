@@ -55,7 +55,7 @@
             p Las bacterias son organismos unicelulares, sin núcleo, diminutos que se alimentan del ambiente en que viven. En algunos casos, ese ambiente será el cuerpo de otro ser vivo.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/tema4/2.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema4/2.png' alt="Muestra organismos unicelulares procariotas. Bacterias.")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             p En el cuerpo humano, algunas bacterias ayudan a que el sistema digestivo funcione correctamente e impiden que entren bacterias nocivas en su interior; por el contrario, las bacterias también pueden causar problemas, como las caries dentales, las infecciones de las vías urinarias, las infecciones de oído o la faringitis.
@@ -64,7 +64,7 @@
               img(src='@/assets/curso/tema4/3.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p Otras bacterias se utilizan para elaborar medicamentos y vacunas. Para combatir una infección producida por bacterias, es necesario tomar o inyectar un antibiótico, éste debe ser específico para la clase de bacteria que eta produciendo la infección, lo que significa que cualquier antibiótico no sirve para una infección en el pulmón como en la piel.
+            p Otras bacterias se utilizan para elaborar medicamentos y vacunas. Para combatir una infección producida por bacterias, es necesario tomar o inyectar un antibiótico, éste debe ser específico para la clase de bacteria que está produciendo la infección, lo que significa que cualquier antibiótico no sirve para una infección en el pulmón como en la piel.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
               img(src='@/assets/curso/tema4/4.png' alt="Imagen decorativa")
@@ -109,7 +109,7 @@
             p Los virus no se consideran células completas, más pequeños que las bacterias; solo son material genético (DNA o RNA) empaquetado dentro de una cubierta proteica, por lo que necesitan usar las estructuras de otras células para poderse reproducir. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/tema4/7.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema4/7.png' alt="Muestra un virus que son parásitos celulares que se introducen en la célula.")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             p Los virus no sobreviven sin estar dentro de un organismo vivo, como, por ejemplo:
@@ -157,7 +157,7 @@
               img(src='@/assets/curso/tema4/11.png' alt="Imagen decorativa")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
-            p Muchas adaptaciones virales involucran cambios en la superficie exterior del virus. Un ejemplo típico es el virus que origina la influenza; cuando se inician los síntomas el organismo inicia un proceso de defensas contra ese virus específico, la infección se desarrolla y termina, creando en ese individuo una memoria inmunológica para defenderse posteriormente; sin embargo esa misma persona  con el tiempo se expone o tiene contacto nuevamente con otra persona con el virus de la influenza puede volver a enfermar ya que es una nueva cepa del mismo virus , para lo cual su organismo no está preparado y no se defiende. 
+            p Muchas adaptaciones virales involucran cambios en la superficie exterior del virus. Un ejemplo típico es el virus que origina la influenza; cuando se inician los síntomas el organismo inicia un proceso de defensas contra ese virus específico, la infección se desarrolla y termina, creando en ese individuo una memoria inmunológica para defenderse posteriormente; sin embargo esa misma persona  con el tiempo se expone o tiene contacto nuevamente con otra persona con el virus de la influenza puede volver a enfermar ya que es una nueva cepa del mismo virus, para lo cual su organismo no está preparado y no se defiende. 
             p.mt-4 Por lo anterior es que para los adultos mayores y los niños es muy importante vacunarse cada año contra la influenza, la cual contiene la información de varias familias de virus y el sistema inmunológico se prepara para defenderse.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
@@ -175,7 +175,7 @@
             p Consiguen el alimento de las plantas, de los alimentos y de los animales en ambientes húmedos y cálidos. Son organismos eucariotas, incapaces de sintetizar sus nutrientes y por lo tanto se consideran saprófitos o parásitos, descomponen la materia orgánica, y son capaces de contaminar los cuerpos de otros seres vivos. Poseen pared celular como las plantas, pero de quitina en lugar de celulosa, y se reproducen mediante esporas, tanto sexual o asexualmente. 
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/tema4/13.png' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema4/13.png' alt="Muestra una imagen de hongos en una fruta.")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             p Las infecciones por hongos, como el pie de atleta (Tinea pedis), que se aloja en la piel, por la humedad, producto de la sudoración, no representan ningún peligro para una persona sana. Sin embargo, las personas inmunodeprimidas, por enfermedades como el SIDA o el cáncer, pueden desarrollar infecciones por hongos mucho más graves.
@@ -205,7 +205,7 @@
             p Se les llama de 2 maneras, protozoos o protozoarios, sin embargo, hacen parte de un reino propio llamado protozoa; y forman parte del Reino protista, puesto que se consideran el primer eslabón evolutivo de las células eucariotas, es decir antes de los animales, plantas, hongos y algas. Ostentan movilidad propia, se transportan por medio de flagelos, cilios o del alargamiento de su citoplasma como falsos pies.
           .col-lg-7.col-10.order-lg-2.order-1.mb-lg-0.mb-4
             figure
-              img(src='@/assets/curso/tema4/17.svg' alt="Imagen decorativa")
+              img(src='@/assets/curso/tema4/17.svg' alt="Muestra la imagen de protozoos.")
         .row.justify-content-center
           .col-lg-5.order-lg-1.order-2
             p A los protozoarios, les encanta la humedad, por lo cual, las infecciones intestinales y otras enfermedades gastrointestinales, como las amebas y las giardias, fácilmente se transmiten a través del agua contaminada. Algunos protozoos son parásitos lo que significa que para vivir necesitan estar dentro de otro ser vivo. Por ejemplo, el protozoo que causa la malaria crece dentro de los eritrocitos, los cuales destruye cada vez que se reproducen. Otro ejemplo es la ameba, la cual se encapsula formando quistes, para poder vivir fuera del cuerpo humano y en ambientes extremos durante mucho tiempo; sin que esto sea un problema para su supervivencia.
@@ -217,7 +217,7 @@
           .ps-3.pe-2.mt-2
             .p-1(style="max-width:200px;background-color:#FF9D00;border:3px white solid;border-radius:4px;")
               h5.mb-0.ps-2.text-center Rizópodos
-            p.mt-2 Desplazamiento mediante pseudópodos (falsos pies), que al mismo tiempo les sirven para atrapar el alimento solido e introducirlo al citoplasma lo que se llama: fagocitosis.
+            p.mt-2 Desplazamiento mediante pseudópodos (falsos pies), que al mismo tiempo les sirven para atrapar el alimento sólido e introducirlo al citoplasma lo que se llama: fagocitosis.
             .p-1.mt-4(style="max-width:200px;background-color:#00BCD4;border:3px white solid;border-radius:4px;")
               h5.mb-0.ps-2.text-center Flagelados
             p.mt-2 Células dotadas de uno o más flagelos, llamadas “colas” con las cuales se impulsan hacia adelante en el medio ambiente en que se encuentren.
@@ -234,7 +234,7 @@
 
     .col-xl-8.m-auto.mt-4.col-lg-10
       figure
-        img(src="@/assets/curso/tema4/19.png" data-aos="zoom-in-up" alt="Imagen decorativa")
+        img(src="@/assets/curso/tema4/19.png" data-aos="zoom-in-up" alt="Muestra la imagen de protozoos.")
     
     Separador
     #t_4_2.titulo-segundo(data-aos="fade-right")
@@ -385,7 +385,7 @@
 
     .col-xl-7.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;")
-        p.mb-0(data-aos="zoom-in") Una infección es un estado de enfermedad resultante de la invasión y el crecimiento de microbios en el cuerpo. El equipo de salud debe seguir ciertos prácticos que previenen la propagación de la infección. El objetivo es proteger de las infecciones a pacientes, visitantes y al propio personal.
+        p.mb-0(data-aos="zoom-in") Una infección es un estado de enfermedad resultante de la invasión y el crecimiento de microbios en el cuerpo. El equipo de salud debe seguir ciertas prácticas que previenen la propagación de la infección. El objetivo es proteger de las infecciones a pacientes, visitantes y al propio personal.
     
     p.mt-5(data-aos="fade-right") Los actores que participan en la cadena de transmisión son:
 
@@ -401,7 +401,7 @@
       .tarjeta.color-acento-botones.bg-white.p-3(x="29%" y="33%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
         p.mb-0(style="color:inherit;") Forma en que el agente infeccioso se transmite del reservorio al huésped; se propaga de una fuente o reservorio a una persona. Puede ser transmisión directa e indirecta.
       .tarjeta.color-acento-botones.bg-white.p-3(x="23.5%" y="50%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
-        p.mb-0(style="color:inherit;")  Transferencia directa del agente infeccioso a una puerta de entrada para que se pueda llevar a cabo la infección. Transmisión de persona a persona, a través de rociado de gotillas por en las conjuntivas o membranas mucosas de la nariz o boca al estornudar, toser, escupir, hablar o cantar, y por contacto directo como al tocar, besar, al tener relaciones sexuales.
+        p.mb-0(style="color:inherit;")  Transferencia directa del agente infeccioso a una puerta de entrada para que se pueda llevar a cabo la infección. Transmisión de persona a persona, a través de rociado de gotillas por las conjuntivas o membranas mucosas de la nariz o boca al estornudar, toser, escupir, hablar o cantar, y por contacto directo como al tocar, besar, al tener relaciones sexuales.
       .tarjeta.color-acento-botones.bg-white.p-3(x="26%" y="66%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
         p.mb-0(style="color:inherit;") Objetos o materiales contaminados como juguetes, pañuelos, instrumentos quirúrgicos, agua, alimentos, leche, productos biológicos, incluyendo suero y plasma. El agente puede o no haberse multiplicado o desarrollado en el vehículo antes de ser transmitido.
       .tarjeta.color-acento-botones.bg-white.p-3(x="35.5%" y="66%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -649,8 +649,8 @@
             figure.text-center.mt-4
               img(src='@/assets/curso/tema4/31.svg' style="max-width:150px;display:inline;" alt="Imagen decorativa")
     
-    p.mt-5(data-aos="fade-right") Las heces, orina, secreción nasal, esputo, vómito y saliva, no se consideran líquidos potencialmente infectantes, excepto si están visiblemente contaminados con sangre.
-    p.mt-4(data-aos="fade-right") Es así como los elementos de protección personal que debe usar un regente de farmacia son:
+    p.mt-5(data-aos="fade-right") Y las normas de bioseguridad para un correcto cuidado son:
+  
 
     .p-4.mt-5(style="background-color:#EEF5FF;border-radius:10px;" data-aos="zoom-in")
       .col-xl-9.m-auto
@@ -663,7 +663,7 @@
           .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Apliques suficiente jabón para cubrir todas las superficies de las manos.
           .tarjeta.color-acento-botones.bg-white.p-3(x="75%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
-            p.mb-0(style="color:inherit;")  Frótese de las palmas de las manos entre sí.
+            p.mb-0(style="color:inherit;") Frótese las palmas de las manos entre sí.
           .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="39%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa.
           .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="39%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -908,11 +908,11 @@
         table
           thead
             tr(style="background-color:#F6F6F6;" data-aos="fade-right")
-              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Nivel
-              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Desinfectantes
-              th.p-2.text-center(style="border-color:#E1E1E1;" colspan="3") Bacterias
-              th.p-2.text-center(style="border-color:#E1E1E1;" rowspan="2") Hongos
-              th.p-2.text-center(style="border-color:#E1E1E1;" colspan="2") Virus
+              th.p-2.text-center(style="border-color:#E1E1E1; width: 10%;" rowspan="2") Nivel
+              th.p-2.text-center(style="border-color:#E1E1E1; width: 25%;" rowspan="2") Desinfectantes
+              th.p-2.text-center(style="border-color:#E1E1E1; width: 35%;" colspan="3") Bacterias
+              th.p-2.text-center(style="border-color:#E1E1E1; width: 10%;" rowspan="2") Hongos
+              th.p-2.text-center(style="border-color:#E1E1E1; width: 20%;" colspan="2") Virus
             tr(style="background-color:#F6F6F6;" data-aos="fade-right")
               th.p-2.text-center(style="border-color:#E1E1E1;") Vegetativas
               th.p-2.text-center(style="border-color:#E1E1E1;") Bacilos #[br] tuberculosos
@@ -922,7 +922,7 @@
           tbody
             tr(data-aos="fade-right")
               td.p-3.fw-bold(style="border-color:#E1E1E1;") Alto
-              td.p-3(style="border-color:#E1E1E1;") Glutaraldehído amonio cuaternario de quinta generación, formaldehído, ácido peracético al 1%, peróxido de hidrógeno al 6%, ortoftalaldehído al 0 55%, ácido peracético con peróxido de hidrógeno.
+              td.p-3(style="border-color:#E1E1E1;") Glutaraldehído amonio cuaternario de quinta generación, formaldehído, ácido peracético al 1 %, peróxido de hidrógeno al 6 %, ortoftalaldehído al 0 55 %, ácido peracético con peróxido de hidrógeno.
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
               td.p-3.text-center(style="border-color:#E1E1E1;") +
@@ -948,7 +948,7 @@
               td.p-3.text-center(style="border-color:#E1E1E1;") -
               td.p-3.text-center(style="border-color:#E1E1E1;") -/+
     
-    p.mt-5(data-aos="fade-right") El protocolo de limpieza de limpieza y desinfección de las superficies y áreas, está dictado por el siguiente procedimiento: 
+    p.mt-5(data-aos="fade-right") El protocolo de limpieza y desinfección de las superficies y áreas, está dictado por el siguiente procedimiento: 
 
     .tarjeta.tarjeta--gris.p-4.mt-5(data-aos="zoom-in")
       PasosB.color-secundario
@@ -969,7 +969,7 @@
             figure
               img(src='@/assets/curso/tema4/50.svg' alt="Imagen decorativa")
           .col-md-6.col-lg-8(style="place-self:center;")
-            p Emplear Elementos de Protección Personal (EPP)durante todo el procedimiento.
+            p Emplear Elementos de Protección Personal (EPP) durante todo el procedimiento.
         .row.col-lg-11.m-auto(titulo="Artículos de limpieza")
           .col-md-6.col-lg-4.mb-4.mb-md-0(style="place-self:center;")
             figure

@@ -2,7 +2,7 @@
 .curso-main-container.pb-3
   BannerInterno(icono="fas fa-sitemap" titulo="Síntesis")
   .container.tarjeta.tarjeta--blanca.p-4.p-md-5
-    p.mb-5(data-aos="fade-right") La administración segura de medicamentos no solo involucra los pacientes que reciben el producto, sino que también incluye a los cuidadores, a todo el personal de salud al igual que las entidades prestadoras de este servicio, ya que comprende diferentes actividades relacionadas con la administración de medicamentos, como actividades de prevención, detección, tratamientos oportunos, al igual que todo lo que concierne a su almacenamiento, preparación y envasado, protocolos de administración y normativa; s por esto que este componente formativo profundiza en estos temas que son relevantes y que se pueden observar a través del siguiente esquema:
+    p.mb-5(data-aos="fade-right") La administración segura de medicamentos no solo involucra los pacientes que reciben el producto, sino que también incluye a los cuidadores, a todo el personal de salud al igual que las entidades prestadoras de este servicio, ya que comprende diferentes actividades relacionadas con la administración de medicamentos, como actividades de prevención, detección, tratamientos oportunos, al igual que todo lo que concierne a su almacenamiento, preparación y envasado, protocolos de administración y normativa; es por esto que este componente formativo profundiza en estos temas que son relevantes y que se pueden observar a través del siguiente esquema:
 
     .row.justify-content-center
       .col-lg-10.mb-5(data-aos="fade-right")

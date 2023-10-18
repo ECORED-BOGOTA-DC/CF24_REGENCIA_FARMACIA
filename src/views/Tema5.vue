@@ -71,7 +71,7 @@
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 15
-        | Deje la jeringa sobre la bandeja listar para ser administrada.
+        | Deje la jeringa sobre la bandeja lista para ser administrada.
       li(data-aos="fade-right")
         .lista-ol--cuadro__vineta
           span.text-bold 16
@@ -124,7 +124,7 @@
           li(data-aos="fade-right")
             .lista-ol--cuadro__vineta
               span.text-bold 8
-            | Realizar desinfección del tapón de vial con alcohol al 70%, en un solo movimiento las veces que sean necesarias.
+            | Realizar desinfección del tapón de vial con alcohol al 70 %, en un solo movimiento las veces que sean necesarias.
           li(data-aos="fade-right")
             .lista-ol--cuadro__vineta
               span.text-bold 9

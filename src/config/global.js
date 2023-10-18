@@ -87,8 +87,7 @@ export default {
       {
         nombreRuta: 'tema6',
         numero: '6',
-        titulo:
-          'Protocolo para la administración de medicamentos vía intramuscular',
+        titulo: 'Protocolos para la administración de medicamentos',
         desarrolloContenidos: true,
       },
     ],
@@ -144,7 +143,7 @@ export default {
       referencia:
         'Resolución 1403 - 2007. Por la cual se determina el Modelo de Gestión del Servicio Farmacéutico, se adopta el Manual de Condiciones Esenciales y Procedimientos y se dictan otras disposiciones. Ministerio de la Protección Social.',
       tipo: 'PDF',
-      descarga: '/downloads/Anexo1_CF024_Resolución_1403_de_2007.pdf',
+      descarga: '/downloads/Anexo1_CF024_Resolucion_1403_de_2007.pdf',
     },
     {
       tema:
@@ -256,7 +255,7 @@ export default {
     },
     {
       termino: 'Putrefacción',
-      significado: 'degradación de las proteínas para en anaerobiosis.',
+      significado: 'degradación de las proteínas en anaerobiosis.',
     },
     {
       termino: 'RAM',
@@ -287,7 +286,7 @@ export default {
     },
     {
       referencia:
-        'Decreto 780 de 2016 “Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social” Ministerio de Salud y Protección Social. 6 de mayo de 2016. Capítulo 10 Droguerías y servicio farmacéutico. Artículo 2.5.3.10.21 Procedimiento de inyectología en farmacias- droguerías y droguerías. (p. 294).',
+        'Decreto 780 de 2016 “Por medio del cual se expide el Decreto Único Reglamentario del Sector Salud y Protección Social” Ministerio de Salud y Protección Social. 6 de mayo de 2016. Capítulo 10 Droguerías y servicio farmacéutico. Artículo 2.5.3.10.21 Procedimiento de inyectología en farmacias y droguerías. (p. 294).',
       link: '',
     },
     {
@@ -299,7 +298,7 @@ export default {
     {
       referencia:
         'Nociones de Salud Pública. Juan Martínez Hernández. Editorial: Diaz de Santos. 2013. Ciencias médicas, Medicina PDF. Capítulo VI pág. 64.',
-      link: 'https://www-ebooks7-24-com.bdigital.sena.edu.co/?il=4152',
+      link: 'https://www.editdiazdesantos.com/wwwdat/pdf/9788499695037.pdf',
     },
     {
       referencia:

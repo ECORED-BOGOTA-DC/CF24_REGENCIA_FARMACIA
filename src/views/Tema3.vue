@@ -32,7 +32,7 @@
                 | Daño de una función o estructura corporal. 
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
-                | Condición que requiera una intervención médica o quirúrgica para prevenir un daño permanente de una estructura o función caporal. 
+                | Condición que requiera una intervención médica o quirúrgica para prevenir un daño permanente de una estructura o función corporal. 
               li.mb-2
                 i.fas.fa-atom.fa-li(style="color:#7E5EE3;")
                 | Evento que lleve a una incapacidad permanente parcial. 
@@ -132,7 +132,7 @@
 
     .col-xl-10.col-lg-10.m-auto.mt-5
       .cajon.color-acento-contenido.p-4(style="background-color:#BFEEF4;" data-aos="zoom-in")
-        p.mb-0 #[strong El evento adverso medicamentoso] es cualquier signo no intencionado o desfavorable o enfermedad asociada temporalmente con el uso de un producto farmacéutico, provocada como respuesta a cualquier dosis usada” definición que se asemeja a la de reacción adversa al medicamento, con la diferencia que la reacción adversa se puede prever por las descripciones técnicas y no tiene que ver con error en la prescripción, solicitud y administración del mismo. 
+        p.mb-0 #[strong El evento adverso medicamentoso] “es cualquier signo no intencionado o desfavorable o enfermedad asociada temporalmente con el uso de un producto farmacéutico, provocada como respuesta a cualquier dosis usada” definición que se asemeja a la de reacción adversa al medicamento, con la diferencia que la reacción adversa se puede prever por las descripciones técnicas y no tiene que ver con error en la prescripción, solicitud y administración del mismo. 
     
     p.mt-5(data-aos="fade-right") Los pasos susceptibles de error en el proceso de medicación son:
 
@@ -286,7 +286,7 @@
               td.p-4 Lavado de manos.
               td.p-4 
               td.p-4 Lávese las manos.
-              td.p-4 El lavado de manos disminuye los microorganismos patógenos de la piel y evita la diseminación de estos hacía unos mismos o hacia los otros pacientes.
+              td.p-4 El lavado de manos disminuye los microorganismos patógenos de la piel y evita la diseminación de estos, hacia unos mismos o hacia los otros pacientes.
             tr(data-aos="fade-right")
               td.p-4 Informar al personal de salud.
               td.p-4 Paciente alérgico a las penicilinas.

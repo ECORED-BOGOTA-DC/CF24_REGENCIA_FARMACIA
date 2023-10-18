@@ -31,7 +31,7 @@
               td.p-4.text-center(style="border:0;") -20 °C a 0 °C 
             tr(style="background-color:#fff;" data-aos="fade-right")
               td.p-4.text-center.fw-bold(style="border:0;border-right:1px #AFAFAF solid;")  Humedad relativa
-              td.p-4.text-center(style="border:0;") 60% Hr a 70% Hr
+              td.p-4.text-center(style="border:0;") 60 % Hr a 70 % Hr
     
     p.mt-5(data-aos="zoom-in") Las condiciones higiénicas que se deben tener en cuenta son:
 
