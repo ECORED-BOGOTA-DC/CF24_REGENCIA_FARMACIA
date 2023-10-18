@@ -657,7 +657,7 @@
         ImagenInfografica.infografia4.color-acento-botones
           template(v-slot:imagen)
             figure
-              img(src='@/assets/curso/tema4/40.svg'  alt="Imagen que contiene 11 pasos sobre cómo lavarse las manos, los cuales son: 0. Mójese las manos. 1. Apliques suficiente jabón para cubrir todas las superficies de las manos. 2. Frótese de las palmas de las manos entre sí. 3. Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa. 4. Frótese las palmas de las manos entre sí, con los dedos entrelazados. 5. Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos. 6. Rodeando el pulgar izquierdo con la palma de la mano derecha, frótese con un movimiento de rotación, y viceversa. 7. Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa. 8. Enjuáguese las manos. 9. Séqueselas con una toalla de un solo uso. 10. Utilice la toalla para cerrar el grifo. 11. Sus manos son seguras.")
+              img(src='@/assets/curso/tema4/40.svg'  alt="Imagen que contiene 11 pasos sobre cómo lavarse las manos, los cuales son: 0. Mójese las manos. 1. Apliques suficiente jabón para cubrir todas las superficies de las manos. 2. Frótese las palmas de las manos entre sí. 3. Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa. 4. Frótese las palmas de las manos entre sí, con los dedos entrelazados. 5. Frótese el dorso de los dedos de una mano contra la palma de la mano opuesta, manteniendo unidos los dedos. 6. Rodeando el pulgar izquierdo con la palma de la mano derecha, frótese con un movimiento de rotación, y viceversa. 7. Frótese la punta de los dedos de la mano derecha contra la palma de la mano izquierda, haciendo un movimiento de rotación, y viceversa. 8. Enjuáguese las manos. 9. Séqueselas con una toalla de un solo uso. 10. Utilice la toalla para cerrar el grifo. 11. Sus manos son seguras.")
           .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Mójese las manos.
           .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="13%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
@@ -696,7 +696,7 @@
           .tarjeta.color-acento-botones.bg-white.p-3(x="30%" y="19%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Deposite en la palma de la mano una dosis de producto suficiente para cubrir todas las superficies.
           .tarjeta.color-acento-botones.bg-white.p-3(x="73%" y="19%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
-            p.mb-0(style="color:inherit;") Frótese de las palmas de las manos entre sí.
+            p.mb-0(style="color:inherit;") Frótese las palmas de las manos entre sí.
           .tarjeta.color-acento-botones.bg-white.p-3(x="4%" y="54%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
             p.mb-0(style="color:inherit;") Frótese la palma de la mano derecha contra el dorso de la mano izquierda entrelazando los dedos, y viceversa.
           .tarjeta.color-acento-botones.bg-white.p-3(x="40%" y="54%" numero="+" style="box-shadow:0px 0px 20px rgba(0,0,0,0.15);")
