@@ -297,8 +297,7 @@ export default {
     },
     {
       referencia:
-        'Nociones de Salud Pública. Juan Martínez Hernández. Editorial: Diaz de Santos. 2013. Ciencias médicas, Medicina PDF. Capítulo VI pág. 64.',
-      link: 'https://www.editdiazdesantos.com/wwwdat/pdf/9788499695037.pdf',
+        'Nociones de Salud Pública. Juan Martínez Hernández. Editorial: Diaz de Santos. 2013. Ciencias médicas, Medicina PDF. Capítulo VI pág. 263.',
     },
     {
       referencia:
